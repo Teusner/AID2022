@@ -1,0 +1,17 @@
+\begin{thebibliography}{1}
+
+\bibitem{blacnh1994FDTD}
+J.~O. Robertsson, J.~O. Blanch, and W.~W. Symes, ``Viscoelastic
+  finite-difference modeling,'' {\em Geophysics}, vol.~59, no.~9,
+  pp.~1444--1456, 1994.
+
+\bibitem{blanch1995Q}
+J.~Blanch, J.~O.~A. Robertsson, and W.~W. Symes, ``Modeling of a constant q;
+  methodology and algorithm for an efficient and optimally inexpensive
+  viscoelastic technique,'' {\em Geophysics}, vol.~60, pp.~176--184, 1995.
+
+\bibitem{rayleigh1896theory}
+J.~W. S.~B. Rayleigh, {\em The theory of sound}, vol.~2.
+\newblock Macmillan, 1896.
+
+\end{thebibliography}

@@ -1,0 +1,1 @@
+pdfpc ./build/presentation/presentation.pdf --duration=25
