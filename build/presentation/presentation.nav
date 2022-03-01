@@ -28,62 +28,62 @@
 \headcommand {\sectionentry {2}{Finite Difference Time Domain (FDTD)}{6}{Finite Difference Time Domain (FDTD)}{2}}
 \headcommand {\beamer@subsectionpages {6}{5}}
 \headcommand {\beamer@subsectionentry {2}{2}{1}{6}{Numeric Scheme}}
-\headcommand {\slideentry {2}{1}{1}{6/6}{Numeric Scheme}{2}}
-\headcommand {\beamer@framepages {6}{6}}
-\headcommand {\beamer@subsectionpages {6}{6}}
-\headcommand {\beamer@subsectionentry {2}{2}{2}{7}{Viscoelastic modeling of materials}}
-\headcommand {\slideentry {2}{2}{1}{7/7}{Viscoelastic modeling of materials}{2}}
-\headcommand {\beamer@framepages {7}{7}}
-\headcommand {\slideentry {2}{2}{2}{8/8}{Viscoelastic modeling of materials}{2}}
-\headcommand {\beamer@framepages {8}{8}}
-\headcommand {\beamer@subsectionpages {7}{8}}
-\headcommand {\beamer@subsectionentry {2}{2}{3}{9}{Physically constrained acoustic sources model}}
-\headcommand {\beamer@sectionpages {6}{8}}
-\headcommand {\beamer@subsectionpages {9}{8}}
-\headcommand {\sectionentry {3}{Results}{9}{Results}{2}}
-\headcommand {\beamer@subsectionpages {9}{8}}
-\headcommand {\beamer@subsectionentry {2}{3}{1}{9}{Validation}}
-\headcommand {\beamer@subsectionpages {9}{8}}
-\headcommand {\beamer@subsectionentry {2}{3}{2}{9}{Pulsing sphere}}
-\headcommand {\slideentry {3}{2}{1}{9/9}{Pulsing sphere}{2}}
-\headcommand {\beamer@framepages {9}{9}}
-\headcommand {\partentry {Localization}{3}}
-\headcommand {\beamer@partpages {3}{9}}
-\headcommand {\beamer@sectionpages {9}{9}}
-\headcommand {\beamer@subsectionpages {9}{9}}
-\headcommand {\beamer@sectionpages {10}{9}}
-\headcommand {\beamer@subsectionpages {10}{9}}
-\headcommand {\sectionentry {4}{Validation}{10}{Validation}{3}}
-\headcommand {\beamer@subsectionpages {10}{9}}
-\headcommand {\beamer@subsectionentry {3}{4}{1}{10}{Comparaison avec le modèle PyRAM}}
-\headcommand {\slideentry {4}{1}{1}{10/10}{Comparaison avec le modèle PyRAM}{3}}
+\headcommand {\slideentry {2}{1}{1}{6/9}{Numeric Scheme}{2}}
+\headcommand {\beamer@framepages {6}{9}}
+\headcommand {\beamer@subsectionpages {6}{9}}
+\headcommand {\beamer@subsectionentry {2}{2}{2}{10}{Viscoelastic modeling of materials}}
+\headcommand {\slideentry {2}{2}{1}{10/10}{Viscoelastic modeling of materials}{2}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {4}{1}{2}{11/11}{Comparaison avec le modèle PyRAM}{3}}
+\headcommand {\slideentry {2}{2}{2}{11/11}{Viscoelastic modeling of materials}{2}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@sectionpages {10}{11}}
 \headcommand {\beamer@subsectionpages {10}{11}}
-\headcommand {\sectionentry {5}{Localisation Ensembliste}{12}{Localisation Ensembliste}{3}}
+\headcommand {\beamer@subsectionentry {2}{2}{3}{12}{Physically constrained acoustic sources model}}
+\headcommand {\beamer@sectionpages {6}{11}}
 \headcommand {\beamer@subsectionpages {12}{11}}
-\headcommand {\beamer@subsectionentry {3}{5}{1}{12}{Méthodes Ensemblistes vs Probabilistes}}
-\headcommand {\slideentry {5}{1}{1}{12/12}{Méthodes Ensemblistes vs Probabilistes}{3}}
+\headcommand {\sectionentry {3}{Results}{12}{Results}{2}}
+\headcommand {\beamer@subsectionpages {12}{11}}
+\headcommand {\beamer@subsectionentry {2}{3}{1}{12}{Validation}}
+\headcommand {\beamer@subsectionpages {12}{11}}
+\headcommand {\beamer@subsectionentry {2}{3}{2}{12}{Pulsing sphere}}
+\headcommand {\slideentry {3}{2}{1}{12/12}{Pulsing sphere}{2}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\slideentry {5}{1}{2}{13/13}{Méthodes Ensemblistes vs Probabilistes}{3}}
+\headcommand {\partentry {Localization}{3}}
+\headcommand {\beamer@partpages {3}{12}}
+\headcommand {\beamer@sectionpages {12}{12}}
+\headcommand {\beamer@subsectionpages {12}{12}}
+\headcommand {\beamer@sectionpages {13}{12}}
+\headcommand {\beamer@subsectionpages {13}{12}}
+\headcommand {\sectionentry {4}{Validation}{13}{Validation}{3}}
+\headcommand {\beamer@subsectionpages {13}{12}}
+\headcommand {\beamer@subsectionentry {3}{4}{1}{13}{Comparaison avec le modèle PyRAM}}
+\headcommand {\slideentry {4}{1}{1}{13/13}{Comparaison avec le modèle PyRAM}{3}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\beamer@subsectionpages {12}{13}}
-\headcommand {\beamer@subsectionentry {3}{5}{2}{14}{Localisation ensembliste de source acoustiques}}
-\headcommand {\slideentry {5}{2}{1}{14/14}{Localisation ensembliste de source acoustiques}{3}}
+\headcommand {\slideentry {4}{1}{2}{14/14}{Comparaison avec le modèle PyRAM}{3}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\slideentry {5}{2}{2}{15/15}{Localisation ensembliste de source acoustiques}{3}}
+\headcommand {\beamer@sectionpages {13}{14}}
+\headcommand {\beamer@subsectionpages {13}{14}}
+\headcommand {\sectionentry {5}{Localisation Ensembliste}{15}{Localisation Ensembliste}{3}}
+\headcommand {\beamer@subsectionpages {15}{14}}
+\headcommand {\beamer@subsectionentry {3}{5}{1}{15}{Méthodes Ensemblistes vs Probabilistes}}
+\headcommand {\slideentry {5}{1}{1}{15/15}{Méthodes Ensemblistes vs Probabilistes}{3}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\beamer@sectionpages {12}{15}}
-\headcommand {\beamer@subsectionpages {14}{15}}
-\headcommand {\sectionentry {6}{Conclusion}{16}{Conclusion}{3}}
-\headcommand {\slideentry {6}{0}{1}{16/16}{}{3}}
+\headcommand {\slideentry {5}{1}{2}{16/16}{Méthodes Ensemblistes vs Probabilistes}{3}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\slideentry {6}{0}{2}{17/17}{}{3}}
+\headcommand {\beamer@subsectionpages {15}{16}}
+\headcommand {\beamer@subsectionentry {3}{5}{2}{17}{Localisation ensembliste de source acoustiques}}
+\headcommand {\slideentry {5}{2}{1}{17/17}{Localisation ensembliste de source acoustiques}{3}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\beamer@partpages {10}{17}}
-\headcommand {\beamer@subsectionpages {16}{17}}
-\headcommand {\beamer@sectionpages {16}{17}}
-\headcommand {\beamer@documentpages {17}}
+\headcommand {\slideentry {5}{2}{2}{18/18}{Localisation ensembliste de source acoustiques}{3}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\beamer@sectionpages {15}{18}}
+\headcommand {\beamer@subsectionpages {17}{18}}
+\headcommand {\sectionentry {6}{Conclusion}{19}{Conclusion}{3}}
+\headcommand {\slideentry {6}{0}{1}{19/19}{}{3}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\slideentry {6}{0}{2}{20/20}{}{3}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\beamer@partpages {13}{20}}
+\headcommand {\beamer@subsectionpages {19}{20}}
+\headcommand {\beamer@sectionpages {19}{20}}
+\headcommand {\beamer@documentpages {20}}
 \headcommand {\gdef \inserttotalframenumber {17}}

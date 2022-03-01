@@ -414,6 +414,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/multimedia.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/multimedia.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/aobs-tikz/tikzlibraryoverlay-beamer-styles.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/latex/aobs-tikz/tikzlibraryoverlay-beamer-styles.code.tex
 INPUT build/presentation/presentation.aux
 INPUT build/presentation/presentation.aux
 OUTPUT build/presentation/presentation.aux
@@ -575,6 +577,16 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/helvetic/phvro8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
+INPUT images/logos_bw.png
+INPUT ./images/logos_bw.png
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
+INPUT images/logos_bw.png
+INPUT ./images/logos_bw.png
+INPUT images/logos_bw.png
+INPUT ./images/logos_bw.png
 INPUT images/profile/James_Clerk_Maxwell.png
 INPUT ./images/profile/James_Clerk_Maxwell.png
 INPUT ./images/profile/James_Clerk_Maxwell.png
@@ -665,9 +677,11 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Roboto-Italic.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
