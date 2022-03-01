@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.11)  1 MAR 2022 10:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.11)  1 MAR 2022 14:31
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -713,93 +713,8 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
 (Font)              scaled to size 9.0pt on input line 112.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/pxfonts.sty
-Package: pxfonts 2008/01/22 v1.1.1
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/pxr/m/n on input line 21.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/pxr/m/n on input line 21.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/pxr/m/n --> OT1/pxr/bx/n on input line 22.
-\symitalic=\mathgroup6
-LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
-(Font)                  OT1/pxr/m/it --> OT1/pxr/bx/it on input line 26.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/pxr/bx/n on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/pxr/bx/n on input line 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/pxr/m/it on input line 30.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/pxr/m/it on input line 30.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/pxr/m/it --> OT1/pxr/bx/it on input line 31.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/pxss/m/n on input line 40.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/pxss/m/n on input line 40.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/pxss/m/n --> OT1/pxss/b/n on input line 41.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/pxtt/m/n on input line 50.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/pxtt/m/n on input line 50.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/pxtt/m/n --> OT1/pxtt/b/n on input line 51.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/pxmi/m/it on input line 58.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/pxmi/m/it on input line 58.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/pxmi/m/it --> OML/pxmi/bx/it on input line 59.
-\symlettersA=\mathgroup7
-LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
-(Font)                  U/pxmia/m/it --> U/pxmia/bx/it on input line 67.
-LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 70.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/pxsy/m/n on input line 77.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/pxsy/m/n on input line 77.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/pxsy/m/n --> OMS/pxsy/bx/n on input line 78.
-LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 93.
-LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
-(Font)                  U/msa/m/n --> U/pxsya/m/n on input line 93.
-LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
-(Font)                  U/msa/m/n --> U/pxsya/m/n on input line 93.
-LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
-(Font)                  U/pxsya/m/n --> U/pxsya/bx/n on input line 94.
-LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 102.
-LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
-(Font)                  U/msb/m/n --> U/pxsyb/m/n on input line 102.
-LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
-(Font)                  U/msb/m/n --> U/pxsyb/m/n on input line 102.
-LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
-(Font)                  U/pxsyb/m/n --> U/pxsyb/bx/n on input line 103.
-\symsymbolsC=\mathgroup8
-LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
-(Font)                  U/pxsyc/m/n --> U/pxsyc/bx/n on input line 113.
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/pxex/m/n on input line 120.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/pxex/m/n on input line 120.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/pxex/m/n --> OMX/pxex/bx/n on input line 121.
-\symlargesymbolsA=\mathgroup9
-LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
-(Font)                  U/pxexa/m/n --> U/pxexa/bx/n on input line 129.
-LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 164.
-LaTeX Info: Redefining \not on input line 997.
-LaTeX Info: Redefining \textsquare on input line 1017.
-LaTeX Info: Redefining \openbox on input line 1018.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/palatino.sty
+Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
 (./styles/fluxmacros.sty) (./styles/beamerthemeflux.sty
 (./styles/beamercolorthemeflux.sty) (./styles/beamerfontthemeflux.sty)
@@ -1160,49 +1075,82 @@ LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/animate/animate.sty
+Package: animate 2019/12/03 PDF & SVG animations from files and inline graphics
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty
+Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2019/11/29 v2.28 Module abspage for zref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2019/11/29 v2.28 Module base for zref (HO)
+Package zref Info: New property list: main on input line 763.
+Package zref Info: New property: default on input line 764.
+Package zref Info: New property: page on input line 765.
+)
+\c@abspage=\count348
+Package zref Info: New property: abspage on input line 66.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/media9/pdfbase.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-02-14 LaTeX2e option processing using LaTeX3 keys
+)
+Package: pdfbase 2020/01/27 v0.36 driver independent access to low-level PDF fe
+atures
+\g_pbs_page_int=\count349
+\g_pbs_oc_int=\count350
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ocgx2/ocgbase.sty
+Package: ocgbase 2019/11/04 v0.17 support package for ocgx2.sty
+\g_ocgbase_nd_int=\count351
+)
+\@anim@box=\box103
+\@anim@measbox=\box104
+\@anim@tmpdima=\dimen335
+\@anim@tmpdimb=\dimen336
+\@anim@num=\count352
+\@anim@curframe=\count353
+\@anim@curframe@zb=\count354
+\@anim@resizeflags=\count355
+\@anim@skipfram=\count356
+\@anim@mulframecnt=\count357
+\@anim@@tmlnfile=\read3
+\@anim@tmpcnt=\count358
+\c@@anim@ltxcnt=\count359
+\@anim@curlayer=\count360
+\@anim@lineno=\count361
+\@anim@curfield=\count362
+\@anim@@resizeflags=\count363
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/multimedia.sty
+Package: multimedia 2012/05/02 ver 0.02
+\mm@movie=\count364
+)
 (build/presentation/presentation.aux)
 \openout1 = `presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/pxmi/m/it on input line 37.
-LaTeX Font Info:    Trying to load font information for OML+pxmi on input line 
-37.
-
-(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/omlpxmi.fd
-File: omlpxmi.fd 2000/12/14 v1.0
-)
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/pxsy/m/n on input line 37.
-LaTeX Font Info:    Trying to load font information for OMS+pxsy on input line 
-37.
-
-(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/omspxsy.fd
-File: omspxsy.fd 2000/12/14 v1.0
-)
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/pxex/m/n on input line 37.
-LaTeX Font Info:    Trying to load font information for OMX+pxex on input line 
-37.
-
-(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/omxpxex.fd
-File: omxpxex.fd 2000/12/14 v1.0
-)
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/pxexa/m/n on input line 37.
-LaTeX Font Info:    Trying to load font information for U+pxexa on input line 3
-7.
-
-(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/upxexa.fd
-File: upxexa.fd 2000/12/14 v1.0
-)
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1240,16 +1188,16 @@ LaTeX Font Info:    ... okay on input line 37.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count348
-\scratchdimen=\dimen335
-\scratchbox=\box103
-\nofMPsegments=\count349
-\nofMParguments=\count350
+\scratchcounter=\count365
+\scratchdimen=\dimen337
+\scratchbox=\box105
+\nofMPsegments=\count366
+\nofMParguments=\count367
 \everyMPshowfont=\toks51
-\MPscratchCnt=\count351
-\MPscratchDim=\dimen336
-\MPnumerator=\count352
-\makeMPintoPDFobject=\count353
+\MPscratchCnt=\count368
+\MPscratchDim=\dimen338
+\MPnumerator=\count369
+\makeMPintoPDFobject=\count370
 \everyMPtoPDFconversion=\toks52
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1261,8 +1209,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box104
-Package hyperref Info: Link coloring OFF on input line 37.
+\AtBeginShipoutBox=\box106
+Package hyperref Info: Link coloring OFF on input line 40.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1273,58 +1221,58 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count354
+\c@section@level=\count371
 )
-LaTeX Info: Redefining \ref on input line 37.
-LaTeX Info: Redefining \pageref on input line 37.
-LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Info: Redefining \ref on input line 40.
+LaTeX Info: Redefining \pageref on input line 40.
+LaTeX Info: Redefining \nameref on input line 40.
 
 (build/presentation/presentation.out) (build/presentation/presentation.out)
 \@outlinefile=\write5
 \openout5 = `presentation.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/pxr/m/n --> OT1/cmss/m/n on input line 37.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 40.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/pxr/bx/n --> OT1/cmss/b/n on input line 37.
-\symnumbers=\mathgroup10
-\sympureletters=\mathgroup11
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 40.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/pxr/m/n on input line 37.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 37.
+(Font)                  OT1/cmss/m/n --> T1/ppl/m/n on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/pxr/bx/n --> T1/pxss/b/n on input line 37.
+(Font)                  OT1/cmr/bx/n --> T1/phv/b/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/pxr/bx/n --> T1/pxss/b/n on input line 37.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 37.
+(Font)                  OT1/cmr/bx/n --> T1/phv/b/n on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/pxss/m/n --> T1/pxss/m/n on input line 37.
+(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/pxss/b/n --> T1/pxss/m/n on input line 37.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 37.
+(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/pxr/m/it --> T1/pxss/m/it on input line 37.
+(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/pxr/bx/it --> T1/pxss/m/it on input line 37.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 37.
+(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/pxtt/m/n --> T1/pxtt/m/n on input line 37.
+(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/pxtt/b/n --> T1/pxtt/m/n on input line 37.
+(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 40.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/pxss/m/n --> T1/pxss/b/n on input line 37.
+(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 40.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/pxss/m/it --> T1/pxss/b/it on input line 37.
+(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/pxr/b/n on input line 37.
+(Font)                  OT1/cmss/b/n --> T1/ppl/b/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/pxss/b/n --> T1/pxss/b/n on input line 37.
+(Font)                  T1/phv/b/n --> T1/phv/b/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/pxss/m/n --> T1/pxss/b/n on input line 37.
+(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/pxss/m/it --> T1/pxss/b/it on input line 37.
+(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/pxtt/m/n --> T1/pxtt/b/n on input line 37.
+(Font)                  T1/pcr/m/n --> T1/pcr/b/n on input line 40.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1350,326 +1298,296 @@ Dictionary: translator-numbers-dictionary, Language: English
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-\c@mv@tabular=\count355
-\c@mv@boldtabular=\count356
+\c@mv@tabular=\count372
+\c@mv@boldtabular=\count373
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (build/presentation/presentation.nav)
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 37.
+(Font)              `T1/Roboto-LF/regular/n' on input line 40.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 5.0pt on input line 37.
+(Font)              scaled to size 5.0pt on input line 40.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 37.
+(Font)              `T1/Roboto-LF/regular/n' on input line 40.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 37.
+(Font)              scaled to size 6.0pt on input line 40.
 LaTeX Font Info:    Trying to load font information for TS1+Roboto-LF on input 
-line 37.
+line 40.
 
 (/usr/share/texlive/texmf-dist/tex/latex/roboto/TS1Roboto-LF.fd
 File: TS1Roboto-LF.fd 2019/12/11 (autoinst) Font definitions for TS1/Roboto-LF.
 
 )
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/m/n' aliased to
-(Font)              `TS1/Roboto-LF/regular/n' on input line 37.
+(Font)              `TS1/Roboto-LF/regular/n' on input line 40.
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 37.
+(Font)              scaled to size 6.0pt on input line 40.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 39.
+(Font)              `T1/Roboto-LF/regular/n' on input line 42.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 17.28pt on input line 39.
+(Font)              scaled to size 17.28pt on input line 42.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 39.
+(Font)              `T1/Roboto-LF/bold/n' on input line 42.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 17.28pt on input line 39.
+(Font)              scaled to size 17.28pt on input line 42.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 39.
+(Font)              `T1/Roboto-LF/regular/n' on input line 42.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 39.
+(Font)              scaled to size 10.95pt on input line 42.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 39.
+(Font)              `T1/Roboto-LF/bold/n' on input line 42.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 39.
+(Font)              scaled to size 10.95pt on input line 42.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 39.
+(Font)              `T1/Roboto-LF/regular/n' on input line 42.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 39.
+(Font)              scaled to size 10.0pt on input line 42.
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/m/n' aliased to
-(Font)              `TS1/Roboto-LF/regular/n' on input line 39.
+(Font)              `TS1/Roboto-LF/regular/n' on input line 42.
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 39.
-<images/logos_title_page.png, id=113, 2620.79124pt x 501.875pt>
+(Font)              scaled to size 10.0pt on input line 42.
+<images/logos_title_page.png, id=114, 2620.79124pt x 501.875pt>
 File: images/logos_title_page.png Graphic file (type png)
 <use images/logos_title_page.png>
-Package pdftex.def Info: images/logos_title_page.png  used on input line 39.
+Package pdftex.def Info: images/logos_title_page.png  used on input line 42.
 (pdftex.def)             Requested size: 159.33548pt x 30.50941pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/logos_title_page.
 png>]
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 59.
+(Font)              `T1/Roboto-LF/regular/n' on input line 62.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 59.
-LaTeX Font Info:    Trying to load font information for U+pxsya on input line 5
-9.
+(Font)              scaled to size 8.0pt on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/upxsya.fd
-File: upxsya.fd 2000/12/14 v1.0
-)
-LaTeX Font Info:    Trying to load font information for U+pxsyb on input line 5
-9.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/upxsyb.fd
-File: utxsyb.fd 2000/12/14 v1.0
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for OT1+pxr on input line 5
-9.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/ot1pxr.fd
-File: ot1pxr.fd 2000/12/14 v1.0
-)
-LaTeX Font Info:    Trying to load font information for U+pxmia on input line 5
-9.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/upxmia.fd
-File: upxmia.fd 2000/12/14 v1.0
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+pxsyc on input line 5
-9.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 62
+.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/upxsyc.fd
-File: upxsyc.fd 2000/12/14 v1.0
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
-LaTeX Font Info:    Trying to load font information for T1+pxss on input line 5
-9.
-
-(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/t1pxss.fd
-File: t1pxss.fd 2000/12/14 v1.0
-)
-LaTeX Font Info:    Font shape `T1/pxss/m/it' in size <8> not available
-(Font)              Font shape `T1/pxss/m/sl' tried instead on input line 59.
-LaTeX Font Info:    Font shape `T1/pxss/m/it' in size <6> not available
-(Font)              Font shape `T1/pxss/m/sl' tried instead on input line 59.
-LaTeX Font Info:    Font shape `T1/pxss/m/it' in size <5> not available
-(Font)              Font shape `T1/pxss/m/sl' tried instead on input line 59.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 62.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 62.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 59.
+(Font)              `T1/Roboto-LF/bold/n' on input line 62.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 8.0pt on input line 59.
-LaTeX Font Info:    Font shape `T1/pxss/m/it' in size <9> not available
-(Font)              Font shape `T1/pxss/m/sl' tried instead on input line 59.
+(Font)              scaled to size 8.0pt on input line 62.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 59.
+(Font)              `T1/Roboto-LF/bold/n' on input line 62.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 9.0pt on input line 59.
-<images/logos_bw.png, id=123, 2450.15375pt x 501.875pt>
+(Font)              scaled to size 9.0pt on input line 62.
+<images/logos_bw.png, id=125, 2450.15375pt x 501.875pt>
 File: images/logos_bw.png Graphic file (type png)
 <use images/logos_bw.png>
-Package pdftex.def Info: images/logos_bw.png  used on input line 59.
+Package pdftex.def Info: images/logos_bw.png  used on input line 62.
 (pdftex.def)             Requested size: 76.38017pt x 15.64526pt.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 59.
+(Font)              `T1/Roboto-LF/regular/n' on input line 62.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 4.0pt on input line 59.
+(Font)              scaled to size 4.0pt on input line 62.
  [2
 
  <./images/logos_bw.png>] (build/presentation/presentation.toc)
 File: images/logos_bw.png Graphic file (type png)
 <use images/logos_bw.png>
-Package pdftex.def Info: images/logos_bw.png  used on input line 66.
+Package pdftex.def Info: images/logos_bw.png  used on input line 69.
 (pdftex.def)             Requested size: 76.38017pt x 15.64526pt.
  [3
 
 ]
 File: images/logos_bw.png Graphic file (type png)
 <use images/logos_bw.png>
-Package pdftex.def Info: images/logos_bw.png  used on input line 89.
+Package pdftex.def Info: images/logos_bw.png  used on input line 93.
 (pdftex.def)             Requested size: 76.38017pt x 15.64526pt.
  [4
 
 ]
-<images/profile/Jean_Le_Rond_d'Alembert,_by_French_school.jpg, id=163, 1256.869
+<images/profile/Jean_Le_Rond_d'Alembert,_by_French_school.jpg, id=167, 1256.869
 57pt x 1553.805pt>
 File: images/profile/Jean_Le_Rond_d'Alembert,_by_French_school.jpg Graphic file
  (type jpg)
 <use images/profile/Jean_Le_Rond_d'Alembert,_by_French_school.jpg>
 Package pdftex.def Info: images/profile/Jean_Le_Rond_d'Alembert,_by_French_scho
-ol.jpg  used on input line 109.
+ol.jpg  used on input line 119.
 (pdftex.def)             Requested size: 95.60226pt x 118.16628pt.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 109.
+(Font)              `T1/Roboto-LF/regular/n' on input line 119.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 7.0pt on input line 109.
-LaTeX Font Info:    Font shape `T1/pxss/b/n' in size <8> not available
-(Font)              Font shape `T1/pxss/bx/n' tried instead on input line 109.
-LaTeX Font Info:    Font shape `T1/pxss/b/n' in size <6> not available
-(Font)              Font shape `T1/pxss/bx/n' tried instead on input line 109.
-LaTeX Font Info:    Font shape `T1/pxss/b/n' in size <5> not available
-(Font)              Font shape `T1/pxss/bx/n' tried instead on input line 109.
-LaTeX Font Info:    Font shape `T1/pxss/b/n' in size <9> not available
-(Font)              Font shape `T1/pxss/bx/n' tried instead on input line 109.
+(Font)              scaled to size 7.0pt on input line 119.
 File: images/logos_bw.png Graphic file (type png)
 <use images/logos_bw.png>
-Package pdftex.def Info: images/logos_bw.png  used on input line 109.
+Package pdftex.def Info: images/logos_bw.png  used on input line 119.
 (pdftex.def)             Requested size: 76.38017pt x 15.64526pt.
  [5
 
  <./images/profile/Jean_Le_Rond_d'Alembert,_by_French_school.jpg>]
-LaTeX Font Info:    Font shape `T1/pxss/b/n' in size <10.95> not available
-(Font)              Font shape `T1/pxss/bx/n' tried instead on input line 176.
-LaTeX Font Info:    Font shape `T1/pxss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/pxss/m/sl' tried instead on input line 176.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 186.
 File: images/logos_bw.png Graphic file (type png)
 <use images/logos_bw.png>
-Package pdftex.def Info: images/logos_bw.png  used on input line 176.
+Package pdftex.def Info: images/logos_bw.png  used on input line 186.
 (pdftex.def)             Requested size: 76.38017pt x 15.64526pt.
  [6
 
 ]
-<images/profile/James_Clerk_Maxwell.png, id=188, 332.24126pt x 399.4925pt>
+<images/profile/James_Clerk_Maxwell.png, id=196, 332.24126pt x 399.4925pt>
 File: images/profile/James_Clerk_Maxwell.png Graphic file (type png)
 <use images/profile/James_Clerk_Maxwell.png>
 Package pdftex.def Info: images/profile/James_Clerk_Maxwell.png  used on input 
-line 202.
+line 212.
 (pdftex.def)             Requested size: 95.60226pt x 114.95378pt.
-<images/SLS.png, id=189, 331.2375pt x 240.9pt>
+<images/SLS.png, id=197, 331.2375pt x 240.9pt>
 File: images/SLS.png Graphic file (type png)
 <use images/SLS.png>
-Package pdftex.def Info: images/SLS.png  used on input line 202.
+Package pdftex.def Info: images/SLS.png  used on input line 212.
 (pdftex.def)             Requested size: 76.48064pt x 55.61902pt.
 File: images/logos_bw.png Graphic file (type png)
 <use images/logos_bw.png>
-Package pdftex.def Info: images/logos_bw.png  used on input line 202.
+Package pdftex.def Info: images/logos_bw.png  used on input line 212.
 (pdftex.def)             Requested size: 76.38017pt x 15.64526pt.
  [7
 
  <./images/profile/James_Clerk_Maxwell.png> <./images/SLS.png>]
-<images/quality_factor.pdf, id=200, 462.52798pt x 346.89601pt>
+<images/quality_factor.pdf, id=208, 462.52798pt x 346.89601pt>
 File: images/quality_factor.pdf Graphic file (type pdf)
 <use images/quality_factor.pdf>
-Package pdftex.def Info: images/quality_factor.pdf  used on input line 229.
-(pdftex.def)             Requested size: 122.36902pt x 91.7735pt.
+Package pdftex.def Info: images/quality_factor.pdf  used on input line 237.
+(pdftex.def)             Requested size: 152.9607pt x 114.71951pt.
 File: images/logos_bw.png Graphic file (type png)
 <use images/logos_bw.png>
-Package pdftex.def Info: images/logos_bw.png  used on input line 229.
+Package pdftex.def Info: images/logos_bw.png  used on input line 237.
 (pdftex.def)             Requested size: 76.38017pt x 15.64526pt.
-
-Overfull \vbox (0.52612pt too high) detected at line 229
- []
-
-[8
+ [8
 
  <./images/quality_factor.pdf>]
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' aliased to
-(Font)              `T1/Roboto-LF/regular/it' on input line 253.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/it' will be
-(Font)              scaled to size 8.0pt on input line 253.
+<images/sphere/2dfdtd_00100.png, id=264, 254.551pt x 309.5565pt>
+File: images/sphere/2dfdtd_00100.png Graphic file (type png)
+<use images/sphere/2dfdtd_00100.png>
+Package pdftex.def Info: images/sphere/2dfdtd_00100.png  used on input line 262
+.
+(pdftex.def)             Requested size: 127.46643pt x 155.00931pt.
 File: images/logos_bw.png Graphic file (type png)
 <use images/logos_bw.png>
-Package pdftex.def Info: images/logos_bw.png  used on input line 253.
+Package pdftex.def Info: images/logos_bw.png  used on input line 262.
 (pdftex.def)             Requested size: 76.38017pt x 15.64526pt.
  [9
 
-]
+ <./images/sphere/2dfdtd_00100.png>]
 File: images/logos_bw.png Graphic file (type png)
 <use images/logos_bw.png>
-Package pdftex.def Info: images/logos_bw.png  used on input line 293.
+Package pdftex.def Info: images/logos_bw.png  used on input line 296.
 (pdftex.def)             Requested size: 76.38017pt x 15.64526pt.
  [10
 
 ]
-<images/PyRam_Proteus.png, id=269, 415.151pt x 312.367pt>
+<images/PyRam_Proteus.png, id=283, 415.151pt x 312.367pt>
 File: images/PyRam_Proteus.png Graphic file (type png)
 <use images/PyRam_Proteus.png>
-Package pdftex.def Info: images/PyRam_Proteus.png  used on input line 314.
+Package pdftex.def Info: images/PyRam_Proteus.png  used on input line 317.
 (pdftex.def)             Requested size: 146.59077pt x 110.29765pt.
-<images/PyAc_Proteus_corrected.png, id=270, 462.528pt x 346.896pt>
+<images/PyAc_Proteus_corrected.png, id=284, 462.528pt x 346.896pt>
 File: images/PyAc_Proteus_corrected.png Graphic file (type png)
 <use images/PyAc_Proteus_corrected.png>
 Package pdftex.def Info: images/PyAc_Proteus_corrected.png  used on input line 
-314.
+317.
 (pdftex.def)             Requested size: 156.15053pt x 117.11205pt.
 File: images/logos_bw.png Graphic file (type png)
 <use images/logos_bw.png>
-Package pdftex.def Info: images/logos_bw.png  used on input line 314.
+Package pdftex.def Info: images/logos_bw.png  used on input line 317.
 (pdftex.def)             Requested size: 76.38017pt x 15.64526pt.
  [11
 
  <./images/PyRam_Proteus.png> <./images/PyAc_Proteus_corrected.png>]
 File: images/logos_bw.png Graphic file (type png)
 <use images/logos_bw.png>
-Package pdftex.def Info: images/logos_bw.png  used on input line 354.
+Package pdftex.def Info: images/logos_bw.png  used on input line 357.
 (pdftex.def)             Requested size: 76.38017pt x 15.64526pt.
  [12
 
 ]
-LaTeX Font Info:    Font shape `T1/pxss/b/n' in size <7> not available
-(Font)              Font shape `T1/pxss/bx/n' tried instead on input line 411.
-LaTeX Font Info:    Font shape `T1/pxss/m/it' in size <7> not available
-(Font)              Font shape `T1/pxss/m/sl' tried instead on input line 411.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 414.
 File: images/logos_bw.png Graphic file (type png)
 <use images/logos_bw.png>
-Package pdftex.def Info: images/logos_bw.png  used on input line 411.
+Package pdftex.def Info: images/logos_bw.png  used on input line 414.
 (pdftex.def)             Requested size: 76.38017pt x 15.64526pt.
  [13
 
 ]
-<images/Reciever_20_2000.png, id=302, 462.528pt x 346.896pt>
+<images/Reciever_20_2000.png, id=319, 462.528pt x 346.896pt>
 File: images/Reciever_20_2000.png Graphic file (type png)
 <use images/Reciever_20_2000.png>
-Package pdftex.def Info: images/Reciever_20_2000.png  used on input line 465.
+Package pdftex.def Info: images/Reciever_20_2000.png  used on input line 468.
 (pdftex.def)             Requested size: 143.40096pt x 107.55252pt.
 File: images/logos_bw.png Graphic file (type png)
 <use images/logos_bw.png>
-Package pdftex.def Info: images/logos_bw.png  used on input line 465.
+Package pdftex.def Info: images/logos_bw.png  used on input line 468.
 (pdftex.def)             Requested size: 76.38017pt x 15.64526pt.
  [14
 
  <./images/Reciever_20_2000.png>]
-<images/Hydrophone_20_2000.png, id=312, 1355.0625pt x 135.50626pt>
+<images/Hydrophone_20_2000.png, id=331, 1355.0625pt x 135.50626pt>
 File: images/Hydrophone_20_2000.png Graphic file (type png)
 <use images/Hydrophone_20_2000.png>
-Package pdftex.def Info: images/Hydrophone_20_2000.png  used on input line 487.
+Package pdftex.def Info: images/Hydrophone_20_2000.png  used on input line 490.
 
 (pdftex.def)             Requested size: 318.67097pt x 31.86671pt.
-<images/Hydrophone_40_2000.png, id=313, 1355.0625pt x 135.50626pt>
+<images/Hydrophone_40_2000.png, id=332, 1355.0625pt x 135.50626pt>
 File: images/Hydrophone_40_2000.png Graphic file (type png)
 <use images/Hydrophone_40_2000.png>
-Package pdftex.def Info: images/Hydrophone_40_2000.png  used on input line 487.
+Package pdftex.def Info: images/Hydrophone_40_2000.png  used on input line 490.
 
 (pdftex.def)             Requested size: 318.67097pt x 31.86671pt.
-<images/Hydrophone_60_2000.png, id=314, 1355.0625pt x 135.50626pt>
+<images/Hydrophone_60_2000.png, id=333, 1355.0625pt x 135.50626pt>
 File: images/Hydrophone_60_2000.png Graphic file (type png)
 <use images/Hydrophone_60_2000.png>
-Package pdftex.def Info: images/Hydrophone_60_2000.png  used on input line 487.
+Package pdftex.def Info: images/Hydrophone_60_2000.png  used on input line 490.
 
 (pdftex.def)             Requested size: 318.67097pt x 31.86671pt.
-<images/Proteus.png, id=315, 1355.0625pt x 135.50626pt>
+<images/Proteus.png, id=334, 1355.0625pt x 135.50626pt>
 File: images/Proteus.png Graphic file (type png)
 <use images/Proteus.png>
-Package pdftex.def Info: images/Proteus.png  used on input line 487.
+Package pdftex.def Info: images/Proteus.png  used on input line 490.
 (pdftex.def)             Requested size: 318.67097pt x 31.86671pt.
 File: images/logos_bw.png Graphic file (type png)
 <use images/logos_bw.png>
-Package pdftex.def Info: images/logos_bw.png  used on input line 487.
+Package pdftex.def Info: images/logos_bw.png  used on input line 490.
 (pdftex.def)             Requested size: 76.38017pt x 15.64526pt.
- [15
+
+[15
 
  <./images/Hydrophone_20_2000.png> <./images/Hydrophone_40_2000.png> <./images/
 Hydrophone_60_2000.png> <./images/Proteus.png>]
-<images/seabot.png, id=327, 462.72874pt x 621.32124pt>
+<images/seabot.png, id=347, 462.72874pt x 621.32124pt>
 File: images/seabot.png Graphic file (type png)
 <use images/seabot.png>
-Package pdftex.def Info: images/seabot.png  used on input line 520.
+Package pdftex.def Info: images/seabot.png  used on input line 523.
 (pdftex.def)             Requested size: 101.97353pt x 136.91862pt.
 File: images/logos_bw.png Graphic file (type png)
 <use images/logos_bw.png>
-Package pdftex.def Info: images/logos_bw.png  used on input line 520.
+Package pdftex.def Info: images/logos_bw.png  used on input line 523.
 (pdftex.def)             Requested size: 76.38017pt x 15.64526pt.
  [16
 
- <./images/seabot.png>] (build/presentation/presentation.bbl
+ <./images/seabot.png>]
+(build/presentation/presentation.bbl
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' aliased to
 (Font)              `T1/Roboto-LF/regular/it' on input line 5.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/it' will be
@@ -1677,7 +1595,7 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/it' will be
 )
 File: images/logos_bw.png Graphic file (type png)
 <use images/logos_bw.png>
-Package pdftex.def Info: images/logos_bw.png  used on input line 525.
+Package pdftex.def Info: images/logos_bw.png  used on input line 528.
 (pdftex.def)             Requested size: 76.38017pt x 15.64526pt.
  [17
 
@@ -1691,21 +1609,20 @@ Package pdftex.def Info: images/logos_bw.png  used on input line 525.
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 526.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 526.
-
-(build/presentation/presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 526.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 526.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 529.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 529.
+ (build/presentation/presentation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 529.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 529.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 716C7D7978FB5BD8DAE20ADE3BA66227;1319.
+(rerunfilecheck)             Checksum: DD2D957840394DEDB2985033C32D4449;1324.
  ) 
 Here is how much of TeX's memory you used:
- 29648 strings out of 481239
- 611992 string characters out of 5920376
- 877495 words of memory out of 5000000
- 44066 multiletter control sequences out of 15000+600000
- 676976 words of font info for 163 fonts, out of 8000000 for 9000
+ 30130 strings out of 481239
+ 625274 string characters out of 5920376
+ 919542 words of memory out of 5000000
+ 44547 multiletter control sequences out of 15000+600000
+ 657583 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,13n,117p,779b,908s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_b5rac7.enc}{/usr/s
@@ -1714,19 +1631,23 @@ ist/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}</usr/share/texlive/texmf-dist/fonts
 /type1/google/roboto/Roboto-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /google/roboto/Roboto-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/goo
 gle/roboto/Roboto-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pxfonts/pxex.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pxfonts/pxsy.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/pxfonts/pxsyb.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb></usr/share/texlive/texmf-dist
+/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
-c/uhvr8a.pfb>
-Output written on build/presentation/presentation.pdf (17 pages, 3631596 bytes)
+c/uhvro8a.pfb>
+Output written on build/presentation/presentation.pdf (17 pages, 3755891 bytes)
 .
 PDF statistics:
- 403 PDF objects out of 1000 (max. 8388607)
- 270 compressed objects within 3 object streams
- 65 named destinations out of 1000 (max. 500000)
- 457 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 438 PDF objects out of 1000 (max. 8388607)
+ 298 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 466 words of extra memory for PDF output out of 10000 (max. 10000000)
 

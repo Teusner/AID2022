@@ -3,7 +3,7 @@
 \usepackage[sfdefault]{roboto}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{pxfonts}
+\usepackage{palatino}
 
 \usepackage{styles/fluxmacros}
 \usefolder{styles}
@@ -33,6 +33,9 @@
 \usepackage{pifont}
 \newcommand{\cmark}{\textcolor{ForestGreen}{\ding{51}}}
 \newcommand{\xmark}{\textcolor{Red}{\ding{55}}}
+
+\usepackage{animate}
+\usepackage{multimedia}
 
 \begin{document}
 
@@ -82,6 +85,7 @@
 						\begin{block}{Scope of the simulation}
 							\begin{itemize}
 								\item Rectilinear Grid support for fields
+								\item Linear acoustic approximation
 								\item Viscoelastic modeling of materials
 							\end{itemize}
 						\end{block}
@@ -104,6 +108,12 @@
 							\begin{eqnarray}
 								\left(\nabla^2 - \frac{1}{c^2} \frac{\partial^2}{\partial t^2} \right) \phi(\mathbf{r}, t) & = & f(\mathbf{r}, t) \label{equation:alembert}
 							\end{eqnarray}
+							\begin{itemize}
+								\item $\mathbf{r}$ : position
+								\item $t$ : time
+								\item $\phi$ : field
+								\item $c$ : celerity 
+							\end{itemize}
 						\end{alertblock}
 					\end{minipage}
 				\end{frame}
@@ -203,60 +213,53 @@
 
 				\begin{frame}{FDTD}{Viscoelastic modeling of materials}
 					\begin{minipage}[t]{0.48\textwidth}
-						
-						
-						\begin{block}{Scène}
+
+						\begin{alertblock}{Q modeling}
+							\begin{equation}
+								Q^{-1}(\omega) \approx \sum_{l=1}^L \frac{\omega \tau_{\sigma l} \tau}{1 + \omega^2\tau_{\sigma l}^2}
+							\end{equation}
 							\begin{itemize}
-								\item Plage de fréquence
-								\item Constantes de relaxations
+								\item $Q$ : Desired quality factor 
+								\item $\omega$ Pulsation
+								\item $L$ : Number of SLS
+								\item $\tau_{\sigma l}$ : Relaxation constraint
+								\item $\tau$ : Computed constant for material
 							\end{itemize}
-						\end{block}
+						\end{alertblock}
 					\end{minipage}
 					\hfill
 					\begin{minipage}[t]{0.48\textwidth}
-						\begin{block}{Matériau}
-							\begin{itemize}
-								\item Ondes P : $c_p$, $Q_p$
-								\item Ondes S : $c_s$, $Q_s$
-								\item Calcule constante de temps qui linéarise le mieux Q sur la plage de fréquence
-							\end{itemize}
-						\end{block}
 						\begin{figure}
-							\includegraphics[width=0.8\textwidth]{images/quality_factor.pdf}
-							\caption{Exemple de facteur de qualité optimal}
+							\includegraphics[width=\textwidth]{images/quality_factor.pdf}
+							\caption{Optimal quality factor over a frequency range}
 						\end{figure}
 					\end{minipage}
 				\end{frame}
 
 			\subsection{Physically constrained acoustic sources model}
 
-				\begin{frame}{FDTD}{Physically constrained acoustic sources model}
-					\begin{minipage}[t]{0.48\textwidth}
-						\begin{block}{Matériau viscoélastique}
-							\begin{itemize}
-								\item Modélisation linéaire des matériaux~\cite{blanch1995Q}
-								\item SLS (\textit{Standard Linear Solid Model})
-							\end{itemize}
-						\end{block}
-						
-					\end{minipage}
-					\hfill
-					\begin{minipage}[t]{0.48\textwidth}
-						\begin{block}{Matériau}
-							\begin{itemize}
-								\item Ondes P : $c_p$, $Q_p$
-								\item Ondes S : $c_s$, $Q_s$
-								\item Calcule constante de temps qui linéarise le mieux Q sur la plage de fréquence
-							\end{itemize}
-						\end{block}
-					\end{minipage}
-				\end{frame}
-		
 		\section{Results}
 			
 			\subsection{Validation}
 
-			\subsection{Results}
+			\subsection{Pulsing sphere}
+
+				\begin{frame}{Results}{Pulsing sphere}
+					\centering
+					\begin{minipage}[c]{0.4\textwidth}
+						\begin{figure}
+							\movie{\includegraphics[width=\textwidth]{images/sphere/2dfdtd_00100.png}}{sphere.mp4}
+						\end{figure}
+					\end{minipage}
+					\hfill
+					\begin{minipage}[c]{0.55\textwidth}
+						\begin{exampleblock}{Pulsing sphere}
+							\begin{itemize}
+								\item Emitter at $(50,\ 50)\ m$
+							\end{itemize}
+						\end{exampleblock}
+					\end{minipage}
+				\end{frame}
 
 	\part{Localization}
 

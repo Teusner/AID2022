@@ -38,19 +38,19 @@
 \headcommand {\beamer@framepages {8}{8}}
 \headcommand {\beamer@subsectionpages {7}{8}}
 \headcommand {\beamer@subsectionentry {2}{2}{3}{9}{Physically constrained acoustic sources model}}
-\headcommand {\slideentry {2}{3}{1}{9/9}{Physically constrained acoustic sources model}{2}}
+\headcommand {\beamer@sectionpages {6}{8}}
+\headcommand {\beamer@subsectionpages {9}{8}}
+\headcommand {\sectionentry {3}{Results}{9}{Results}{2}}
+\headcommand {\beamer@subsectionpages {9}{8}}
+\headcommand {\beamer@subsectionentry {2}{3}{1}{9}{Validation}}
+\headcommand {\beamer@subsectionpages {9}{8}}
+\headcommand {\beamer@subsectionentry {2}{3}{2}{9}{Pulsing sphere}}
+\headcommand {\slideentry {3}{2}{1}{9/9}{Pulsing sphere}{2}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\beamer@sectionpages {6}{9}}
-\headcommand {\beamer@subsectionpages {9}{9}}
-\headcommand {\sectionentry {3}{Results}{10}{Results}{2}}
-\headcommand {\beamer@subsectionpages {10}{9}}
-\headcommand {\beamer@subsectionentry {2}{3}{1}{10}{Validation}}
-\headcommand {\beamer@subsectionpages {10}{9}}
-\headcommand {\beamer@subsectionentry {2}{3}{2}{10}{Results}}
 \headcommand {\partentry {Localization}{3}}
 \headcommand {\beamer@partpages {3}{9}}
-\headcommand {\beamer@sectionpages {10}{9}}
-\headcommand {\beamer@subsectionpages {10}{9}}
+\headcommand {\beamer@sectionpages {9}{9}}
+\headcommand {\beamer@subsectionpages {9}{9}}
 \headcommand {\beamer@sectionpages {10}{9}}
 \headcommand {\beamer@subsectionpages {10}{9}}
 \headcommand {\sectionentry {4}{Validation}{10}{Validation}{3}}

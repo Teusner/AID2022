@@ -5,9 +5,9 @@
 \beamer@subsectionintoc {2}{1}{Numeric Scheme}{6}{2}{2}
 \beamer@subsectionintoc {2}{2}{Viscoelastic modeling of materials}{7}{2}{2}
 \beamer@subsectionintoc {2}{3}{Physically constrained acoustic sources model}{9}{2}{2}
-\beamer@sectionintoc {3}{Results}{10}{2}{3}
-\beamer@subsectionintoc {3}{1}{Validation}{10}{2}{3}
-\beamer@subsectionintoc {3}{2}{Results}{10}{2}{3}
+\beamer@sectionintoc {3}{Results}{9}{2}{3}
+\beamer@subsectionintoc {3}{1}{Validation}{9}{2}{3}
+\beamer@subsectionintoc {3}{2}{Pulsing sphere}{9}{2}{3}
 \beamer@sectionintoc {4}{Validation}{10}{3}{4}
 \beamer@subsectionintoc {4}{1}{Comparaison avec le modèle PyRAM}{10}{3}{4}
 \beamer@sectionintoc {5}{Localisation Ensembliste}{12}{3}{5}
