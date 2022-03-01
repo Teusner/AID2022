@@ -34,7 +34,7 @@
 \newcommand{\cmark}{\textcolor{ForestGreen}{\ding{51}}}
 \newcommand{\xmark}{\textcolor{Red}{\ding{55}}}
 
-\usepackage{animate}
+\usepackage{graphicx}
 \usepackage{multimedia}
 
 \begin{document}
@@ -45,8 +45,8 @@
 
 		\begin{frame}{Introduction}{Financing of the works}
 			\centering
-			\begin{minipage}{0.6\textwidth}
-				\begin{block}{Research laboratories}
+			\begin{minipage}[c]{0.55\textwidth}
+				\begin{block}{Research laboratory}
 					\begin{itemize}
 						\item ENSTA Bretagne
 					\end{itemize}
@@ -54,10 +54,14 @@
 
 				\begin{block}{Projects}
 					\begin{itemize}
-						\item \textbf{DGA RAPID PROTEUS} :\\ Underwater acoustic propagation simulation using Finite Difference Time Domain 
+						\item \textbf{DGA RAPID PROTEUS} :\\ Underwater acoustic propagation simulation using Finite Difference Time Domain (FDTD)
 						\item \textbf{DGA ROBOTIX} :\\ Underwater acoustic source localization using interval analysis
 					\end{itemize}
 				\end{block}
+			\end{minipage}
+			\hfill
+			\begin{minipage}[c]{0.4\textwidth}
+				\includegraphics[height=0.7\textheight, trim={24cm 0 16cm 0}, clip]{images/ensta.jpg}
 			\end{minipage}
 		\end{frame}
 
@@ -118,7 +122,7 @@
 					\end{minipage}
 				\end{frame}
 
-		\section{Finite Difference Time Domain}
+		\section{Finite Difference Time Domain (FDTD)}
 
 			\subsection{Numeric Scheme}
 
@@ -246,16 +250,18 @@
 
 				\begin{frame}{Results}{Pulsing sphere}
 					\centering
-					\begin{minipage}[c]{0.4\textwidth}
+					\begin{minipage}[c]{0.45\textwidth}
 						\begin{figure}
-							\movie{\includegraphics[width=\textwidth]{images/sphere/2dfdtd_00100.png}}{sphere.mp4}
+							\movie{\includegraphics[width=\textwidth]{images/sphere/2dfdtd_00150.png}}{sphere.mp4}
 						\end{figure}
 					\end{minipage}
 					\hfill
-					\begin{minipage}[c]{0.55\textwidth}
+					\begin{minipage}[c]{0.5\textwidth}
 						\begin{exampleblock}{Pulsing sphere}
 							\begin{itemize}
+								\item $(100,\ 100)\ m$ scene
 								\item Emitter at $(50,\ 50)\ m$
+								\item Reflection at the top
 							\end{itemize}
 						\end{exampleblock}
 					\end{minipage}

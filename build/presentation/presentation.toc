@@ -1,7 +1,7 @@
 \beamer@sectionintoc {1}{Introduction}{4}{2}{1}
 \beamer@subsectionintoc {1}{1}{Scope of the study}{4}{2}{1}
 \beamer@subsectionintoc {1}{2}{Wave equation}{5}{2}{1}
-\beamer@sectionintoc {2}{Finite Difference Time Domain}{6}{2}{2}
+\beamer@sectionintoc {2}{Finite Difference Time Domain (FDTD)}{6}{2}{2}
 \beamer@subsectionintoc {2}{1}{Numeric Scheme}{6}{2}{2}
 \beamer@subsectionintoc {2}{2}{Viscoelastic modeling of materials}{7}{2}{2}
 \beamer@subsectionintoc {2}{3}{Physically constrained acoustic sources model}{9}{2}{2}
