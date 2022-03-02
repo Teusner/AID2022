@@ -104,14 +104,14 @@
 
 				\begin{frame}{Introduction}{Wave Equation}
 					\centering
-					\begin{minipage}[c]{0.3\textwidth}
+					\begin{minipage}[t]{0.3\textwidth}
 						\begin{figure}
 							\includegraphics[width=\textwidth]{images/profile/Jean_Le_Rond_d'Alembert,_by_French_school.jpg}
 							\caption{Jean Le Rond d'Alembert}
 						\end{figure}
 					\end{minipage}
 					\hfill
-					\begin{minipage}[c]{0.6\textwidth}
+					\begin{minipage}[t]{0.6\textwidth}
 						\begin{alertblock}{Wave equation}
 							\begin{eqnarray}
 								\left(\nabla^2 - \frac{1}{c^2} \frac{\partial^2}{\partial t^2} \right) \phi(\mathbf{r}, t) & = & f(\mathbf{r}, t) \label{equation:alembert}
@@ -313,7 +313,65 @@
 					\end{minipage}
 				\end{frame}
 
-			\subsection{Scene}
+			\subsection{Acoustic reciprocity}
+
+				\begin{frame}{Acoustic reciprocity~\footfullcite{rayleigh1896theory}}{Theory}
+					\centering
+					\begin{minipage}[c]{0.3\textwidth}
+						\begin{figure}
+							\includegraphics[width=\textwidth]{images/profile/John_William_Strutt.jpg}
+							\caption{John William Strutt, $3^{rd}$ Baron of Rayleigh}
+						\end{figure}
+					\end{minipage}
+					\hfill
+					\begin{minipage}[c]{0.6\textwidth}
+						\begin{block}{Acoustic reciprocity}
+							\begin{itemize}
+								\item Emitters $\leftrightarrow$ Receivers
+								\item Efficient computation of the backward propagation
+							\end{itemize}
+						\end{block}
+						\begin{block}{Assumptions}
+							\begin{itemize}
+								\item Field of linear acoustics
+								\item Remains true in visoelastic environments
+							\end{itemize}
+						\end{block}
+					\end{minipage}
+				\end{frame}
+
+				\begin{frame}{Acoustic reciprocity}{Simulation}
+					\centering
+					\begin{minipage}[t]{0.47\textwidth}
+						\centering
+						\begin{block}{Forward propagation}
+							\begin{itemize}
+								\item Emitter in the scene
+								\item Receivers at each grid cell
+							\end{itemize}
+						\end{block}
+						\begin{figure}
+							\includegraphics[width=\textwidth]{build/images/reciprocity_forward.pdf}
+							\caption{Forward propagation}
+						\end{figure}
+					\end{minipage}
+					\hfill
+					\begin{minipage}[t]{0.47\textwidth}
+						\centering
+						\begin{block}{Backward propagation}
+							\begin{itemize}
+								\item Emitter at each grid cell
+								\item Receivers in the scene
+							\end{itemize}
+						\end{block}
+						\begin{figure}
+							\includegraphics[width=\textwidth]{build/images/reciprocity_backward.pdf}
+							\caption{Backward propagation}
+						\end{figure}
+					\end{minipage}
+				\end{frame}
+
+			\subsection{Scene modeling}
 
 				\begin{frame}{Modeling}{Scene}
 					\begin{figure}[!htb]
@@ -406,87 +464,74 @@
 
 		\section{Acoustic localisation using interval analysis}
 
-			\subsection{Acoustic reciprocity}
-
-				\begin{frame}{Acoustic reciprocity~\footfullcite{rayleigh1896theory}}{Theory}
-					\centering
-					\begin{minipage}[c]{0.3\textwidth}
-						\begin{figure}
-							\includegraphics[width=\textwidth]{images/profile/John_William_Strutt.jpg}
-							\caption{John William Strutt, $3^{rd}$ Baron of Rayleigh}
-						\end{figure}
-					\end{minipage}
-					\hfill
-					\begin{minipage}[c]{0.6\textwidth}
-						\begin{block}{Acoustic reciprocity}
-							\begin{itemize}
-								\item Emitters $\leftrightarrow$ Receivers
-								\item Efficient computation of the backward propagation
-							\end{itemize}
-						\end{block}
-						\begin{block}{Assumptions}
-							\begin{itemize}
-								\item Field of linear acoustics
-								\item Remains true in visoelastic environments
-							\end{itemize}
-						\end{block}
-					\end{minipage}
-				\end{frame}
-
-				\begin{frame}{Acoustic reciprocity}{Simulation}
-					\centering
-					\begin{minipage}[t]{0.47\textwidth}
-						\centering
-						\begin{block}{Forward propagation}
-							\begin{itemize}
-								\item Emitter in the scene
-								\item Receivers at each grid cell
-							\end{itemize}
-						\end{block}
-						\begin{figure}
-							\includegraphics[width=\textwidth]{build/images/reciprocity_forward.pdf}
-							\caption{Forward propagation}
-						\end{figure}
-					\end{minipage}
-					\hfill
-					\begin{minipage}[t]{0.47\textwidth}
-						\centering
-						\begin{block}{Backward propagation}
-							\begin{itemize}
-								\item Emitter at each grid cell
-								\item Receivers in the scene
-							\end{itemize}
-						\end{block}
-						\begin{figure}
-							\includegraphics[width=\textwidth]{build/images/reciprocity_backward.pdf}
-							\caption{Backward propagation}
-						\end{figure}
-					\end{minipage}
-				\end{frame}
-
 			\subsection{Acoustic contractor}
 
+			\begin{frame}{Acoustic contractor}
+				\centering
+				\begin{minipage}{0.5\textwidth}
+					\begin{exampleblock}{Acoustic source localisation}
+						\begin{itemize}
+							\item Hydrophone at $(2000, 20)\ m$
+							\item Record acoustic level $y$ such that
+						\end{itemize}
+						\begin{equation}
+							y \in [55, 60]\ dB
+						\end{equation}
+					\end{exampleblock}
+				\end{minipage}
+				\hfill
+				\begin{minipage}{0.36\textwidth}
+					\begin{figure}[!htb]
+						\begin{subfigure}[!htb]{\textwidth}
+							\includegraphics[width=\textwidth]{build/images/reciprocity_backward.pdf}
+							\caption{Backward propagation}
+						\end{subfigure}
+						\begin{subfigure}[!htb]{\textwidth}
+							\includegraphics[width=\textwidth]{build/images/reciprocity_backward.pdf}
+							\caption{Set of source position compatible with the recorded signal}
+						\end{subfigure}
+						\caption{Acoustic contractor}
+					\end{figure}
+				\end{minipage}
+			\end{frame}
 
-			\begin{frame}{Problème d'inversion}
-				\begin{figure}[!htb]
-					\begin{subfigure}[!htb]{\textwidth}
-						\includegraphics[width=\textwidth]{images/Hydrophone_20_2000.png}
-						\caption{Compatibilité avec Hydrophone placé en $(2000, 20)\ m$}
-					\end{subfigure}
-					\begin{subfigure}[!htb]{\textwidth}
-						\includegraphics[width=\textwidth]{images/Hydrophone_40_2000.png}
-						\caption{Compatibilité avec Hydrophone placé en $(2000, 40)\ m$}
-					\end{subfigure}
-					\begin{subfigure}[!htb]{\textwidth}
-						\includegraphics[width=\textwidth]{images/Hydrophone_60_2000.png}
-						\caption{Compatibilité avec Hydrophone placé en $(2000, 60)\ m$}
-					\end{subfigure}
-					\begin{subfigure}[!htb]{\textwidth}
-						\includegraphics[width=\textwidth]{images/Proteus.png}
-						\caption{Position de la source compatibles avec les mesures de niveaux acoustiques}
-					\end{subfigure}
-					\caption{Localisation ensembliste de la source acoustique}
-				\end{figure}
+				\begin{frame}{Problème d'inversion}
+					\begin{figure}[!htb]
+						\begin{subfigure}[!htb]{\textwidth}
+							\includegraphics[width=\textwidth]{images/Hydrophone_20_2000.png}
+							\caption{Compatibilité avec Hydrophone placé en $(2000, 20)\ m$}
+						\end{subfigure}
+						\begin{subfigure}[!htb]{\textwidth}
+							\includegraphics[width=\textwidth]{images/Hydrophone_40_2000.png}
+							\caption{Compatibilité avec Hydrophone placé en $(2000, 40)\ m$}
+						\end{subfigure}
+						\begin{subfigure}[!htb]{\textwidth}
+							\includegraphics[width=\textwidth]{images/Hydrophone_60_2000.png}
+							\caption{Compatibilité avec Hydrophone placé en $(2000, 60)\ m$}
+						\end{subfigure}
+						\begin{subfigure}[!htb]{\textwidth}
+							\includegraphics[width=\textwidth]{images/Proteus.png}
+							\caption{Position de la source compatibles avec les mesures de niveaux acoustiques}
+						\end{subfigure}
+						\caption{Localisation ensembliste de la source acoustique}
+					\end{figure}
+				\end{frame}
+
+			\begin{frame}{Robotics trial facilities}{Seabot~\footfullcite{lemezo}}
+				\centering
+				\begin{minipage}{0.45\textwidth}
+					\begin{figure}
+						\includegraphics[width=\textwidth]{images/mi190322-fig3.eps}
+						\caption{Seabot composition - Thomas Le Mézo}
+					\end{figure}
+				\end{minipage}
+				\hspace{1cm}
+				\begin{minipage}{0.3\textwidth}
+					\begin{figure}
+						\includegraphics[width=\textwidth, trim={5.5cm 0cm 4.8cm 1cm}, clip]{images/mi190322-fig14.eps}
+						\caption{Seabot - Thomas Le Mézo}
+					\end{figure}
+				\end{minipage}
 			\end{frame}
 
 		\section{Conclusion}
@@ -494,37 +539,15 @@
 			\begin{frame}{Conclusion}
 				\centering
 				\begin{minipage}{0.55\textwidth}
-					\begin{block}{Améliorations}
-						\begin{itemize}
-							\item Modélisation du bruit 
-							\item Passage de la 2D à la 3D
-							\item Passage du Python au C++
-							\item Validation en milieu naturel
-						\end{itemize}
-					\end{block}
-
-					\begin{block}{Localisation ensembliste}
-						\begin{itemize}
-							\item Émetteur/Récepteur en mouvement
-							\item Simulation à plusieurs fréquences
-							\item Navigation dans données sonar
-							\item SLAM acoustique
-						\end{itemize}
-					\end{block}
+					
 				\end{minipage}
 				\hfill
 				\begin{minipage}{0.4\textwidth}
-					\centering
-					\begin{figure}
-						\includegraphics[width=0.8\textwidth]{images/seabot.png}
-						\caption{SeaBot - Thomas Le Mézo}
-					\end{figure}
+					
 				\end{minipage}
 			\end{frame}
 	
 		\begin{frame}{Bibliographie}
 			\printbibliography
-			% \bibliography{bib/presentation.bib}
-			% \bibliographystyle{ieeetr}
 		\end{frame}
 \end{document}
