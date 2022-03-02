@@ -4,9 +4,11 @@ from mpl_toolkits.axes_grid1 import make_axes_locatable
 
 from pyram.PyRAM import PyRAM
 
-def figure(pyram):
+import sys
+
+def figure(pyram, reciprocity=1):
     fig, ax = plt.subplots()
-    im = ax.imshow(pyram.tlg, cmap="jet_r", aspect="auto")
+    im = ax.imshow(pyram.tlg[:, ::reciprocity], cmap="jet_r", aspect="auto")
     ax.set_xlabel(f"Range ($m$)")
     ax.set_ylabel(f"Depth ($m$)")
     ax.ticklabel_format(axis="x", style="sci", scilimits=(3,3))
@@ -22,7 +24,7 @@ def figure(pyram):
 
 def model():
     # Frequency
-    f = 100
+    f = 50
 
     # Emitter and Reciever immersion
     zs, zr = 20, 20
@@ -61,7 +63,11 @@ def model():
     return pyram
 
 if __name__ == "__main__":
+    args = sys.argv
+    if len(args)>1:
+        figname = args[1]
+    else :
+        figname = 'build/images/reciprocity_backward.pdf'
     pyram = model()
-    fig, ax = figure(pyram)
-    ax.set_title("PyRam result")
-    plt.show()
+    fig, ax = figure(pyram, reciprocity=-1)
+    plt.savefig(figname, format="pdf")

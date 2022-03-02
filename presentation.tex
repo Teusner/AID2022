@@ -324,33 +324,63 @@
 
 		\section{Localisation Ensembliste}
 
+			\subsection{Acoustic reciprocity}
 
-		\subsection{Localisation ensembliste de source acoustiques}
+				\begin{frame}{Acoustic reciprocity~\footfullcite{rayleigh1896theory}}{Theory}
+					\centering
+					\begin{minipage}[c]{0.3\textwidth}
+						\begin{figure}
+							\includegraphics[width=\textwidth]{images/profile/John_William_Strutt.jpg}
+							\caption{John William Strutt, $3^{rd}$ Baron of Rayleigh}
+						\end{figure}
+					\end{minipage}
+					\hfill
+					\begin{minipage}[c]{0.6\textwidth}
+						\begin{block}{Acoustic reciprocity}
+							\begin{itemize}
+								\item Emitters $\leftrightarrow$ Receivers
+								\item Efficient computation of the backward propagation
+							\end{itemize}
+						\end{block}
+						\begin{block}{Assumptions}
+							\begin{itemize}
+								\item Field of linear acoustics
+								\item Remains true in visoelastic environments
+							\end{itemize}
+						\end{block}
+					\end{minipage}
+				\end{frame}
 
-			\begin{frame}{Acoustic reciprocity~\footfullcite{rayleigh1896theory}}
-				\centering
-				\begin{minipage}[c]{0.3\textwidth}
-					\begin{figure}
-						\includegraphics[width=\textwidth]{images/profile/John_William_Strutt.jpg}
-						\caption{John William Strutt, $3^{rd}$ Baron of Rayleigh}
-					\end{figure}
-				\end{minipage}
-				\hfill
-				\begin{minipage}[c]{0.6\textwidth}
-					\begin{block}{Acoustic reciprocity}
-						\begin{itemize}
-							\item Emitters $\leftrightarrow$ Receivers
-							\item Efficient computation of the backward propagation
-						\end{itemize}
-					\end{block}
-					\begin{block}{Assumptions}
-						\begin{itemize}
-							\item Field of linear acoustics
-							\item Remains true in visoelastic environments
-						\end{itemize}
-					\end{block}
-				\end{minipage}
-			\end{frame}
+				\begin{frame}{Acoustic reciprocity}{Simulation}
+					\centering
+					\begin{minipage}[t]{0.45\textwidth}
+						\centering
+						\begin{block}{Forward}
+							\begin{itemize}
+								\item Emitter in the scene
+								\item Receivers at each grid cell
+							\end{itemize}
+						\end{block}
+						\begin{figure}
+							\includegraphics[width=\textwidth]{build/images/reciprocity_forward.pdf}
+							\caption{Forward propagation}
+						\end{figure}
+					\end{minipage}
+					\hfill
+					\begin{minipage}[t]{0.45\textwidth}
+						\centering
+						\begin{block}{Backward}
+							\begin{itemize}
+								\item Emitter at each grid cell
+								\item Receivers in the scene
+							\end{itemize}
+						\end{block}
+						\begin{figure}
+							\includegraphics[width=\textwidth]{build/images/reciprocity_backward.pdf}
+							\caption{Backward propagation}
+						\end{figure}
+					\end{minipage}
+				\end{frame}
 
 			\begin{frame}{Problème d'inversion}
 				\begin{figure}[!htb]
