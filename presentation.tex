@@ -271,39 +271,47 @@
 					\end{minipage}
 				\end{frame}
 
-	\part{Localization}
+	\part{Underwater acoustic source localization using interval analysis}
 
-	\section{Validation}
+		\begin{frame}
+			\frametitle{Table of contents}
+			\tableofcontents%[hideallsubsections]
+		\end{frame}
 
-		\subsection{Comparaison avec le modèle PyRAM}
+		\section{Modelling}
 
-			\begin{frame}{Scène}
-				\begin{figure}[!htb]
-					\centering
-					\resizebox{0.8\textwidth}{!}{
-					\begin{tikzpicture}
-						\coordinate (A) at (0,0);
-						\coordinate (B) at (0,4);
-						\coordinate (C) at (8,4);
-						\coordinate (D) at (8,0);
-		
-						\fill[Apricot!80] (A) -- ($(A)!0.3!(B)$) -- ($(D)!0.3!(C)$) -- (D) -- cycle;
-						\fill[ProcessBlue!40] ($(A)!0.3!(B)$) -- (B) -- (C) -- ($(D)!0.3!(C)$) -- cycle;
-						\node at ($(A)!0.5!(D)+(0,0.55)$) {Sédiments};
-						\node at ($(A)!0.5!(D)+(0,2.25)$) {Eau};
-						\draw[fill=Red] ($(A)!0.75!(B)$)  arc (-90:90:0.18) -- cycle;
-						\node at ($(A)!0.79!(B)+(1,0)$) {Source};
-						\draw (A) -- (B) -- (C) -- (D) -- cycle;
-		
-						\draw[to-to,>=latex] ($(A)-(0,0.3)$) -- node[below] {$r$} ($(D)-(0,0.3)$) ;
-						\draw[to-to,>=latex] ($(A)-(0.7,0)$) -- node[left] {$z$} ($(B)-(0.7,0)$);
-						\draw[to-to,>=latex] ($(A)!0.8!(B)-(0.1,0)$) -- node[left] {$z_s$} ($(B)-(0.1,0)$);
-						\draw[to-to,>=latex] ($(A)-(0.1,0)$) -- node[left] {$h$} ($(A)!0.3!(B)-(0.1,0)$);
-					\end{tikzpicture}}
-					\caption{Scène utilisée dans la comparaison}
-					\label{fig:scene}
-				\end{figure}
-			\end{frame}
+			\subsection{Scene}
+
+				\begin{frame}{Modelling}{Scene}
+					\begin{figure}[!htb]
+						\centering
+						\resizebox{0.8\textwidth}{!}{
+						\begin{tikzpicture}
+							\coordinate (A) at (0,0);
+							\coordinate (B) at (0,4);
+							\coordinate (C) at (8,4);
+							\coordinate (D) at (8,0);
+			
+							\fill[Apricot!80] (A) -- ($(A)!0.3!(B)$) -- ($(D)!0.3!(C)$) -- (D) -- cycle;
+							\fill[ProcessBlue!40] ($(A)!0.3!(B)$) -- (B) -- (C) -- ($(D)!0.3!(C)$) -- cycle;
+							\node at ($(A)!0.5!(D)+(0,0.55)$) {Sediments};
+							\node at ($(A)!0.5!(D)+(0,2.25)$) {Water};
+							\draw[fill=Red] ($(A)!0.75!(B)$)  arc (-90:90:0.18) -- cycle;
+							\node at ($(A)!0.79!(B)+(1,0)$) {Emitter};
+							\draw[fill=Green] ($(D)!0.64!(C)$)  arc (90:270:0.18) -- cycle;
+							\node at ($(D)!0.6!(C)-(1,0)$) {Reciever};
+							\draw (A) -- (B) -- (C) -- (D) -- cycle;
+			
+							\draw[to-to,>=latex] ($(A)-(0,0.3)$) -- node[below] {$r$} ($(D)-(0,0.3)$) ;
+							\draw[to-to,>=latex] ($(A)-(0.7,0)$) -- node[left] {$z$} ($(B)-(0.7,0)$);
+							\draw[to-to,>=latex] ($(A)!0.8!(B)-(0.1,0)$) -- node[left] {$z_e$} ($(B)-(0.1,0)$);
+							\draw[to-to,>=latex] ($(D)!0.6!(C)+(0.1,0)$) -- node[right] {$z_r$} ($(C)+(0.1,0)$);
+							\draw[to-to,>=latex] ($(A)-(0.1,0)$) -- node[left] {$h$} ($(A)!0.3!(B)-(0.1,0)$);
+						\end{tikzpicture}}
+						\caption{Modelling of the scene}
+						\label{fig:scene}
+					\end{figure}
+				\end{frame}
 
 			\begin{frame}{Comparaison}
 				\begin{figure}[!htb]

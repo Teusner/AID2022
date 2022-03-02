@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex build/presentation/presentation"] 1646205693 "build/presentation/presentation.aux" "build/presentation/presentation.bbl" "build/presentation/presentation" 1646207167
+["bibtex build/presentation/presentation"] 1646207719 "build/presentation/presentation.aux" "build/presentation/presentation.bbl" "build/presentation/presentation" 1646207722
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/ieeetr.bst" 1292289607 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
   "bib/presentation.bib" 1644249204 4931 c87c016feba10d73bdb56d2af7f95646 ""
-  "build/presentation/presentation.aux" 1646207167 9926 960d558396b2ad4105560465a4f863a3 "pdflatex"
+  "build/presentation/presentation.aux" 1646207722 9686 a79c85ef586dc7c321eb923289a48929 "pdflatex"
   (generated)
   "build/presentation/presentation.bbl"
   "build/presentation/presentation.blg"
-["pdflatex"] 1646207165 "presentation.tex" "build/presentation/presentation.pdf" "presentation" 1646207167
+["pdflatex"] 1646207719 "presentation.tex" "build/presentation/presentation.pdf" "presentation" 1646207722
   "/etc/texmf/web2c/texmf.cnf" 1639223142 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_b5rac7.enc" 1576101225 3075 0696ceafc85b8352a913efb9ba64bc17 ""
@@ -311,11 +311,11 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1639223182 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1639223208 8255944 1281ec2d28c7eff79aa2807527383fe9 ""
   "build/presentation/./sphere.mp4" 1646141108 831069 e7b89b0f2d11723ab3e48a9b49501e4a ""
-  "build/presentation/presentation.aux" 1646207167 9926 960d558396b2ad4105560465a4f863a3 "pdflatex"
-  "build/presentation/presentation.bbl" 1646205693 344 392a1a91284f997afb4197011eac9bbb "bibtex build/presentation/presentation"
-  "build/presentation/presentation.nav" 1646207167 4887 b0e861e2b42add6ddfb4066f3c546239 "pdflatex"
-  "build/presentation/presentation.out" 1646207167 1269 eec2d60e6b3a16ec0ac291729e558853 "pdflatex"
-  "build/presentation/presentation.toc" 1646207167 952 55f7503c825981acafac9488909701b3 "pdflatex"
+  "build/presentation/presentation.aux" 1646207722 9686 a79c85ef586dc7c321eb923289a48929 "pdflatex"
+  "build/presentation/presentation.bbl" 1646207719 344 392a1a91284f997afb4197011eac9bbb "bibtex build/presentation/presentation"
+  "build/presentation/presentation.nav" 1646207722 4796 acc1b045eadb81dee19e531abae49380 "pdflatex"
+  "build/presentation/presentation.out" 1646207722 1193 6cdf75d60787a76b31b6032de80fcc12 "pdflatex"
+  "build/presentation/presentation.toc" 1646207722 835 17748cc51bdced8af0632009e2ef733a "pdflatex"
   "images/Hydrophone_20_2000.png" 1643727820 42776 94a5fcbb3d7c28cac2d9e088df720217 ""
   "images/Hydrophone_40_2000.png" 1643727820 33979 c28f30911befcd5d9b29a92cf53526aa ""
   "images/Hydrophone_60_2000.png" 1643727820 43927 b9c2c27fb6265f476881d934f53a8bde ""
@@ -332,7 +332,7 @@
   "images/quality_factor.pdf" 1643814483 18099 9073bf604ff9851858f5cb8b0770d33e ""
   "images/seabot.png" 1644420247 447154 417bb1d16e9e6afae97651fd4c60a6e0 ""
   "images/sphere/2dfdtd_00150.png" 1639559924 135844 395df6bbdbc47a4a0193c249739be70a ""
-  "presentation.tex" 1646207163 19971 92abb1fb905e0ae4f54de6eeeea3a078 ""
+  "presentation.tex" 1646207715 19614 27c4bd7ec0bfb95cfefd8d994e3f4491 ""
   "styles/beamercolorthemeflux.sty" 1630589383 4271 7b40071e1adcbe16ccbd06eddb4f0e20 ""
   "styles/beamerfontthemeflux.sty" 1630589383 2053 866b9b2d9ecc25380ef28e231cae19e1 ""
   "styles/beamerinnerthemeflux.sty" 1630589383 7274 d438a77978dd4822c6681095eeb7b3bf ""
@@ -340,10 +340,10 @@
   "styles/beamerthemeflux.sty" 1630589383 1610 8520d2c7fba87fb6f745c298c4b2366e ""
   "styles/fluxmacros.sty" 1630589383 1365 6d4b0365c3dc24caea08f1b21f4ce541 ""
   (generated)
-  "build/presentation/presentation.snm"
+  "build/presentation/presentation.aux"
   "build/presentation/presentation.nav"
   "build/presentation/presentation.pdf"
+  "build/presentation/presentation.log"
+  "build/presentation/presentation.snm"
   "build/presentation/presentation.toc"
   "build/presentation/presentation.out"
-  "build/presentation/presentation.aux"
-  "build/presentation/presentation.log"

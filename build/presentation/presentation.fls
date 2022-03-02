@@ -608,6 +608,10 @@ INPUT ./images/sphere/2dfdtd_00150.png
 INPUT ./images/sphere/2dfdtd_00150.png
 INPUT images/logos_bw.png
 INPUT ./images/logos_bw.png
+INPUT build/presentation/presentation.toc
+INPUT build/presentation/presentation.toc
+INPUT images/logos_bw.png
+INPUT ./images/logos_bw.png
 INPUT images/logos_bw.png
 INPUT ./images/logos_bw.png
 INPUT images/PyRam_Proteus.png

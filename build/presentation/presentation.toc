@@ -4,12 +4,11 @@
 \beamer@sectionintoc {2}{Finite Difference Time Domain (FDTD)}{6}{2}{2}
 \beamer@subsectionintoc {2}{1}{Numeric Scheme}{6}{2}{2}
 \beamer@subsectionintoc {2}{2}{Viscoelastic modeling of materials}{10}{2}{2}
-\beamer@subsectionintoc {2}{3}{Physically constrained acoustic sources model}{12}{2}{2}
 \beamer@sectionintoc {3}{Results}{12}{2}{3}
 \beamer@subsectionintoc {3}{1}{Example}{12}{2}{3}
-\beamer@sectionintoc {4}{Validation}{13}{3}{4}
-\beamer@subsectionintoc {4}{1}{Comparaison avec le modèle PyRAM}{13}{3}{4}
-\beamer@sectionintoc {5}{Localisation Ensembliste}{15}{3}{5}
-\beamer@subsectionintoc {5}{1}{Méthodes Ensemblistes vs Probabilistes}{15}{3}{5}
-\beamer@subsectionintoc {5}{2}{Localisation ensembliste de source acoustiques}{17}{3}{5}
-\beamer@sectionintoc {6}{Conclusion}{19}{3}{6}
+\beamer@sectionintoc {4}{Modelling}{14}{3}{4}
+\beamer@subsectionintoc {4}{1}{Scene}{14}{3}{4}
+\beamer@sectionintoc {5}{Localisation Ensembliste}{16}{3}{5}
+\beamer@subsectionintoc {5}{1}{Méthodes Ensemblistes vs Probabilistes}{16}{3}{5}
+\beamer@subsectionintoc {5}{2}{Localisation ensembliste de source acoustiques}{18}{3}{5}
+\beamer@sectionintoc {6}{Conclusion}{20}{3}{6}
