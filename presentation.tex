@@ -38,6 +38,9 @@
 \usepackage{multimedia}
 \usetikzlibrary{overlay-beamer-styles}
 
+\usepackage[backend=biber,style=ieee]{biblatex}
+\addbibresource{bib/presentation.bib}
+
 \begin{document}
 
 	\titlepage
@@ -127,7 +130,7 @@
 
 			\subsection{Numeric Scheme}
 
-				\begin{frame}{FDTD}{Formalism}
+				\begin{frame}{FDTD}{Formalism~\footfullcite{blanch1994FDTD}}
 					\centering
 					\begin{minipage}[c]{0.45\textwidth}
 						\begin{block}{Variables of interest}
@@ -138,8 +141,8 @@
 						\end{block}
 						\begin{block}{Numeric scheme}
 							\begin{itemize}
-								\item $2^{nd}$ order in time $\mathcal{O}(\Delta t^2)$~\cite{blacnh1994FDTD} \\
-								\item $4^{th}$ order in space $\mathcal{O}(\Delta x^4)$~\cite{blacnh1994FDTD}
+								\item $2^{nd}$ order in time $\mathcal{O}(\Delta t^2)$\\
+								\item $4^{th}$ order in space $\mathcal{O}(\Delta x^4)$
 							\end{itemize}
 						\end{block}
 					\end{minipage}
@@ -223,7 +226,7 @@
 					\end{minipage}
 				\end{frame}
 
-				\begin{frame}{FDTD}{Viscoelastic modeling of materials}
+				\begin{frame}{FDTD}{Viscoelastic modeling of materials~\footfullcite{blanch1995Q}}
 					\begin{minipage}[t]{0.48\textwidth}
 
 						\begin{alertblock}{Constant Q modeling}
@@ -274,15 +277,19 @@
 	\part{Underwater acoustic source localization using interval analysis}
 
 		\begin{frame}
+			\partpage
+		\end{frame}
+
+		\begin{frame}
 			\frametitle{Table of contents}
 			\tableofcontents%[hideallsubsections]
 		\end{frame}
 
-		\section{Modelling}
+		\section{Modeling}
 
 			\subsection{Scene}
 
-				\begin{frame}{Modelling}{Scene}
+				\begin{frame}{Modeling}{Scene}
 					\begin{figure}[!htb]
 						\centering
 						\resizebox{0.8\textwidth}{!}{
@@ -299,7 +306,7 @@
 							\draw[fill=Red] ($(A)!0.75!(B)$)  arc (-90:90:0.18) -- cycle;
 							\node at ($(A)!0.79!(B)+(1,0)$) {Emitter};
 							\draw[fill=Green] ($(D)!0.64!(C)$)  arc (90:270:0.18) -- cycle;
-							\node at ($(D)!0.6!(C)-(1,0)$) {Reciever};
+							\node at ($(D)!0.6!(C)-(1,0)$) {Receiver};
 							\draw (A) -- (B) -- (C) -- (D) -- cycle;
 			
 							\draw[to-to,>=latex] ($(A)-(0,0.3)$) -- node[below] {$r$} ($(D)-(0,0.3)$) ;
@@ -308,180 +315,40 @@
 							\draw[to-to,>=latex] ($(D)!0.6!(C)+(0.1,0)$) -- node[right] {$z_r$} ($(C)+(0.1,0)$);
 							\draw[to-to,>=latex] ($(A)-(0.1,0)$) -- node[left] {$h$} ($(A)!0.3!(B)-(0.1,0)$);
 						\end{tikzpicture}}
-						\caption{Modelling of the scene}
+						\caption{Modeling of the scene}
 						\label{fig:scene}
 					\end{figure}
 				\end{frame}
 
-			\begin{frame}{Comparaison}
-				\begin{figure}[!htb]
-					\centering
-					\begin{subfigure}[b]{0.46\textwidth}
-						\centering
-						\includegraphics[width=\textwidth]{images/PyRam_Proteus.png}
-						\caption{Modèle RAM}
-						\label{fig:RAM}
-					\end{subfigure}
-					\hfill
-					\begin{subfigure}[b]{0.49\textwidth}
-						\centering
-						\includegraphics[width=\textwidth]{images/PyAc_Proteus_corrected.png}
-						\caption{Modèle Différences Finies}
-						\label{fig:FD}
-					\end{subfigure}
-					\caption{Comparaison des Transmission Loss simulées pour les deux modèles}
-					\label{fig:comparison}
-				\end{figure}
-			\end{frame}
+	
 
 		\section{Localisation Ensembliste}
-
-			\subsection{Méthodes Ensemblistes vs Probabilistes}
-
-				\begin{frame}{Méthodes Ensembliste vs Probabilistes}
-					\begin{minipage}[t]{0.45\textwidth}
-						\begin{block}{Méthodes ensemblistes}
-							\begin{itemize}
-								\item Basées sur les ensembles
-								\item Renvoie l'ensemble des possibilités
-								\item Calcul garanti
-							\end{itemize}
-						\end{block}
-						\begin{exampleblock}{Caractéristiques}
-							\begin{itemize}
-								\item Post-traitement
-								\item Ensemble de solutions compatibles
-								\item Domaine non-linéaires
-							\end{itemize}
-						\end{exampleblock}
-					\end{minipage}
-					\hfill
-					\begin{minipage}[t]{0.45\textwidth}
-						\begin{block}{Méthodes Probabilistes}
-							\begin{itemize}
-								\item Basées sur les probabilités
-								\item Renvoie une position possible
-								\item Calcul probable
-							\end{itemize}
-						\end{block}
-						\begin{exampleblock}{Caractéristiques}
-							\begin{itemize}
-								\item Traitement temps réel
-								\item Point avec covariance
-								\item Domaine linéaire
-							\end{itemize}
-						\end{exampleblock}
-					\end{minipage}
-				\end{frame}
-
-				\begin{frame}{Méthodes Ensembliste vs Probabilistes}
-					\begin{minipage}[t]{0.45\textwidth}
-						\begin{figure}
-							\begin{tikzpicture}
-								\tikzstyle{every node}=[font=\footnotesize]
-								\coordinate (A) at (1.2,0);
-								\coordinate (B) at (0,1);
-								\coordinate (X) at ($(A)+(B)$);
-								\draw[-to, >=latex] (0,0) -- ($(A)+(1,0)$);
-								\draw[-to, >=latex] (0,0) -- ($(B)+(0,1)$);
-								\filldraw[fill=Cerulean!20,draw=Cerulean!50] ($(X)+(0.512,0.491)$) rectangle ($(X)-(0.55,0.5)$);
-								\node[Cerulean] at ($(X)-(0.7,0.7)$) {$[f](x)$};
-								\node[ForestGreen] at ($(X)+(-0.7,0.7)$) {$f(x)$};
-								\path[draw,use Hobby shortcut,closed=true,fill=ForestGreen!20,draw=ForestGreen!50] ($(X)-(0,0.5)$) .. ($(X)-(0.5,0.15)$) .. ($(X)+(0,0.4)$) .. ($(X)+(0.2,0.15)$) .. ($(X)+(0.3,+0.15)$);
-								\filldraw[Magenta] (X) circle (0.05) node[above right, Magenta] {$x$};
-								\node[below left] at (0, 0) {$O$};
-								\node[below left] at ($(X)+(1,1)$) {$\mathbb{R}^n$};
-							\end{tikzpicture}
-							\caption{Méthodes ensemblistes}
-						\end{figure}
-						\begin{exampleblock}{Example}
-							\begin{itemize}
-								\item Intervalles
-								\item Zonotopes
-								\item Polytopes
-							\end{itemize}
-						\end{exampleblock}
-					\end{minipage}
-					\hfill
-					\begin{minipage}[t]{0.45\textwidth}
-						\begin{figure}
-							\tikzstyle{every node}=[font=\footnotesize]
-							\begin{tikzpicture}
-								\coordinate (A) at (1.2,0);
-								\coordinate (B) at (0,1);
-								\coordinate (X) at ($(A)+(B)$);
-								\draw[-to, >=latex] (0,0) -- ($(A)+(1,0)$);
-								\draw[-to, >=latex] (0,0) -- ($(B)+(0,1)$);
-								\filldraw[rotate=-33,fill=ForestGreen!20,draw=ForestGreen!50] ($(X)-(0.2,0.25)$) ellipse (12pt and 20pt);
-								\filldraw[ForestGreen] ($(X)-(0.28,0.1)$) circle (0.05) node[below left, ForestGreen] {$\hat{x}$};
-								\node[above left, ForestGreen] at ($(X)+(-0.35,0.25)$) {$\Gamma_x$};
-								\filldraw[Magenta] (X) circle (0.05) node[above right, Magenta] {$x$};
-								\node[below left] at (0, 0) {$O$};
-								\node[below left] at ($(X)+(1,1)$) {$\mathbb{R}^n$};
-							\end{tikzpicture}
-							\caption{Méthodes probabilistes}
-						\end{figure}
-						\begin{exampleblock}{Example}
-							\begin{itemize}
-								\item Filtre de Kalman
-								\item Filtre de Bayes
-								\item Méthodes de Monte-Carlo
-							\end{itemize}
-						\end{exampleblock}
-					\end{minipage}
-				\end{frame}
-				
-			% 	\begin{frame}{Analyse par Intervalle}
-			% 		\begin{block}{Formalisme}
-			% 			Considérons la fonction :
-			% 			\begin{align*}
-			% 				f \colon \mathbb{R}^n \times \mathbb{R}^p &\to \mathbb{R}^n\\
-			% 				(x \times y) &\mapsto f(x, y).
-			% 			\end{align*}
-			% 			$$\forall [x] \in \mathbb{R}^n, \quad \forall [y] \in \mathbb{R}^p, \quad \mathbb{X} = \left\{x \in [x],\; y \in [y],\; f(x, y) = 0 \right\}$$
-			% 			en l'encadrant par deux sous-pavages $\mathbb{X}^-$ et $\mathbb{X}^+$ de $\mathbb{R}^m$ tels que :
-			% 			\begin{equation*}
-			% 				\mathbb{X}^- \subset \mathbb{X} \subset \mathbb{X}^+
-			% 			\end{equation*}
-			% 		\end{block}
-			% 	\end{frame}
-				
-			% 	\begin{frame}{Contracteur}
-			% 		\begin{block}{Contracteur}
-			% 			L'opérateur $\mathcal{C} \colon \mathbb{R}^n \to \mathbb{R}^n$ est un contracteur pour $f(x) = 0$ si
-			% 			\begin{empheq}[left=\empheqlbrace]{align*}
-			% 				\; & \mathcal{C}([x]) \subset [x] & (Contractance) \\
-			% 			\; & \mathcal{C}([x]) \cap \mathbb{X} = [x] \cap \mathbb{X} & (Completeness) \\
-			% 			\; & (x \in [x]) \wedge (f(x) = 0) \; \Rightarrow \; (x \in \mathcal{C}([x])) & (Consistence)
-			% 		\end{empheq}
-			% 	\end{block}
-			% \end{frame}
 
 
 		\subsection{Localisation ensembliste de source acoustiques}
 
-			\begin{frame}{Réciprocité Acoustique}
-				\begin{minipage}{0.45\textwidth}
-					\begin{block}{Réciprocité}
-						\begin{itemize}
-							\item Récepteurs $\leftrightarrow$ Émetteurs
-							\item Carte de niveau acoustique perçus par rapport à un récepteur
-							\item Résoudre problème d'inversion
-						\end{itemize}
-					\end{block}
-					\begin{block}{Réciprocité Acoustique}
-						\begin{itemize}
-							\item Cadre de l'acoustique linéaire~\cite{rayleigh1896theory}
-							\item Valable en avec modélisation visco-élastique des matériaux
-						\end{itemize}
-					\end{block}
+			\begin{frame}{Acoustic reciprocity~\footfullcite{rayleigh1896theory}}
+				\centering
+				\begin{minipage}[c]{0.3\textwidth}
+					\begin{figure}
+						\includegraphics[width=\textwidth]{images/profile/John_William_Strutt.jpg}
+						\caption{John William Strutt, $3^{rd}$ Baron of Rayleigh}
+					\end{figure}
 				\end{minipage}
 				\hfill
-				\begin{minipage}{0.45\textwidth}
-					\begin{figure}
-						\includegraphics[width=\textwidth]{images/Reciever_20_2000.png}
-						\caption{Carte de niveaux acoustiques pour un récepteur placé en $(2000, 20)\ m$}
-					\end{figure}
+				\begin{minipage}[c]{0.6\textwidth}
+					\begin{block}{Acoustic reciprocity}
+						\begin{itemize}
+							\item Emitters $\leftrightarrow$ Receivers
+							\item Efficient computation of the backward propagation
+						\end{itemize}
+					\end{block}
+					\begin{block}{Assumptions}
+						\begin{itemize}
+							\item Field of linear acoustics
+							\item Remains true in visoelastic environments
+						\end{itemize}
+					\end{block}
 				\end{minipage}
 			\end{frame}
 
@@ -541,7 +408,8 @@
 			\end{frame}
 	
 		\begin{frame}{Bibliographie}
-			\bibliography{bib/presentation}
-			\bibliographystyle{ieeetr}
+			\printbibliography
+			% \bibliography{bib/presentation.bib}
+			% \bibliographystyle{ieeetr}
 		\end{frame}
 \end{document}
