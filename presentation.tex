@@ -320,9 +320,21 @@
 					\end{figure}
 				\end{frame}
 
+		
+		\section{Sensitivity Analysis}
 
-				\begin{frame}{Modeling}{Frequency}
+			\subsection{Frequency}
+
+				\begin{frame}{Sensitivity Analysis}{Frequency}
 					\centering
+					\begin{minipage}{0.8\textwidth}
+						\begin{block}{Frequency sensitivity}
+							\begin{itemize}
+								\item Different acoustic level map
+								\item Due to the different wavelengths and reflections
+							\end{itemize}
+						\end{block}
+					\end{minipage}
 					\begin{minipage}[t]{0.47\textwidth}
 						\begin{figure}
 							\includegraphics[width=\textwidth]{build/images/frequency_50.pdf}
@@ -334,6 +346,32 @@
 						\begin{figure}
 							\includegraphics[width=\textwidth]{build/images/frequency_100.pdf}
 							\caption{Source frequency $100\ Hz$}
+						\end{figure}
+					\end{minipage}
+				\end{frame}
+
+				\begin{frame}{Sensitivity Analysis}{Depth}
+					\centering
+					\begin{minipage}{0.8\textwidth}
+						\begin{block}{Depth sensitivity}
+							\begin{itemize}
+								\item Different acoustic level map
+								\item Due to the reflection on the sea surface and on the sediments
+							\end{itemize}
+						\end{block}
+					\end{minipage}
+					\hfill
+					\begin{minipage}[t]{0.47\textwidth}
+						\begin{figure}
+							\includegraphics[width=\textwidth]{build/images/depth_20.pdf}
+							\caption{Source depth $20\ m$}
+						\end{figure}
+					\end{minipage}
+					\hfill
+					\begin{minipage}[t]{0.47\textwidth}
+						\begin{figure}
+							\includegraphics[width=\textwidth]{build/images/depth_80.pdf}
+							\caption{Source depth $80\ m$}
 						\end{figure}
 					\end{minipage}
 				\end{frame}
