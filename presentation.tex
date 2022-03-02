@@ -259,7 +259,7 @@
 					\centering
 					\begin{minipage}[c]{0.45\textwidth}
 						\begin{figure}
-							\movie{\includegraphics[width=\textwidth]{images/sphere/2dfdtd_00150.png}}{sphere.mp4}
+							\movie{\includegraphics[width=\textwidth]{images/sphere/2dfdtd_00149.png}}{sphere.mp4}
 						\end{figure}
 					\end{minipage}
 					\hfill
@@ -285,7 +285,33 @@
 			\tableofcontents%[hideallsubsections]
 		\end{frame}
 
-		\section{Modeling}
+		\section{Formalism}
+
+			\subsection{Acoustic level}
+
+				\begin{frame}{Acoustic Level}{Definition}
+					\centering
+					\begin{minipage}{0.8\textwidth}
+						\begin{alertblock}{Acoustic level}
+							\begin{equation}
+								SL = 20 \cdot log_{10}\left(\frac{p}{p_{ref}}\right) \qquad p_{ref} = 1\ \mu Pa
+							\end{equation}
+						\end{alertblock}
+					\end{minipage}
+					\begin{minipage}[c]{0.35\textwidth}
+						\begin{figure}
+							\includegraphics[width=\textwidth]{images/sphere/2dfdtd_00149.png}
+							\caption{Pressure field}
+						\end{figure}
+					\end{minipage}
+					\hspace{1cm}
+					\begin{minipage}[c]{0.35\textwidth}
+						\begin{figure}
+							\includegraphics[width=\textwidth]{images/sphere/ampltude.png}
+							\caption{Acoustic level}
+						\end{figure}
+					\end{minipage}
+				\end{frame}
 
 			\subsection{Scene}
 
@@ -439,6 +465,7 @@
 				\end{frame}
 
 			\subsection{Acoustic contractor}
+
 
 			\begin{frame}{Problème d'inversion}
 				\begin{figure}[!htb]

@@ -38,7 +38,7 @@ $(IMAGES_PDF): $(IMAGES_BUILD_DIR)/%.pdf : $(SCRIPT_DIR)/%.py
 # Video recipe
 videos: $(VIDEOS_MP4)
 
-$(VIDEOS_MP4): $(PRESENTATION_BUILD_DIR)/%.mp4 : $(IMAGES_DIR)/sphere/*.png
+$(VIDEOS_MP4): $(PRESENTATION_BUILD_DIR)/%.mp4 : $(wildcard $(IMAGES_DIR)/sphere/2dfdtd_*.png)
 	$(dir_guard)
 	ffmpeg -framerate 30 -pattern_type glob -i 'images/sphere/*.png' -c:v libx264 -pix_fmt yuv420p -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2" $@
 
