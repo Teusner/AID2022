@@ -42,10 +42,8 @@
 \headcommand {\beamer@subsectionpages {12}{11}}
 \headcommand {\sectionentry {3}{Results}{12}{Results}{2}}
 \headcommand {\beamer@subsectionpages {12}{11}}
-\headcommand {\beamer@subsectionentry {2}{3}{1}{12}{Validation}}
-\headcommand {\beamer@subsectionpages {12}{11}}
-\headcommand {\beamer@subsectionentry {2}{3}{2}{12}{Pulsing sphere}}
-\headcommand {\slideentry {3}{2}{1}{12/12}{Pulsing sphere}{2}}
+\headcommand {\beamer@subsectionentry {2}{3}{1}{12}{Example}}
+\headcommand {\slideentry {3}{1}{1}{12/12}{Example}{2}}
 \headcommand {\beamer@framepages {12}{12}}
 \headcommand {\partentry {Localization}{3}}
 \headcommand {\beamer@partpages {3}{12}}

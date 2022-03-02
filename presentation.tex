@@ -142,24 +142,6 @@
 								\item $4^{th}$ order in space $\mathcal{O}(\Delta x^4)$~\cite{blacnh1994FDTD}
 							\end{itemize}
 						\end{block}
-
-						\onslide<2->{
-							\begin{alertblock}{Staggered scheme}
-								\only<2>{
-								\begin{equation}
-									\nabla p|_{i+\frac{1}{2}}^n = \frac{p|_{i+1}^n - p|_i^n}{\Delta x}
-								\end{equation}}
-								\only<3>{
-								\begin{equation}
-									\frac{\partial u}{\partial t}|_{i+\frac{1}{2}}^n = \frac{u|_{i+\frac{1}{2}}^{n+\frac{1}{2}} - u|_{i+\frac{1}{2}}^{n-\frac{1}{2}}}{\Delta t}
-								\end{equation}}
-								\only<4>{
-									\begin{equation}
-										\nabla p|_{i+\frac{1}{2}}^n = \rho \frac{\partial u}{\partial t}|_{i+\frac{1}{2}}^n
-									\end{equation}
-								}
-							\end{alertblock}
-						}
 					\end{minipage}
 					\hfill
 					\begin{minipage}[c]{0.45\textwidth}
@@ -195,14 +177,17 @@
 									\draw[-to, >=latex, thick] (-2.75,-2.75) -- (3, -2.75) node[right] {$\mathbf{x}$};
 									\draw[-to, >=latex, thick] (-2.75,-2.75) -- (-2.75, 2.5) node[above] {$\mathbf{t}$};
 
+									\node[scale=1.5, visible on=<2-2>] at (0.5, 3.5) {$\nabla p|_{i+\frac{1}{2}}^n = \frac{p|_{i+1}^n - p|_i^n}{\Delta x}$};
 									\draw[thick, black, fill=Red, visible on=<2-2>] (0,0) circle (0.1);
 									\draw[thick, black, fill=Red, visible on=<2-2>] (1,0) circle (0.1);
 									\draw[thick, black, fill=Green, visible on=<2-2>] (0.5,0) circle (0.1);
-
+									
+									\node[scale=1.5, visible on=<3-3>] at (0.5, 3.5) {$\frac{\partial u}{\partial t}|_{i+\frac{1}{2}}^n = \frac{u|_{i+\frac{1}{2}}^{n+\frac{1}{2}} - u|_{i+\frac{1}{2}}^{n-\frac{1}{2}}}{\Delta t}$};
 									\draw[thick, black, fill=Red, visible on=<3-4>] (0.5,-0.5) circle (0.1);
 									\draw[thick, black, fill=Red, visible on=<3-4>] (0.5,0.5) circle (0.1);
 									\draw[thick, black, fill=Green, visible on=<3-4>] (0.5,0) circle (0.1);
-
+									
+									\node[scale=1.5, visible on=<4-4>] at (0.5, 3.5) {$\nabla p|_{i+\frac{1}{2}}^n = \rho \frac{\partial u}{\partial t}|_{i+\frac{1}{2}}^n$};
 									\draw[thick, black, fill=Red, visible on=<4>] (0,0) circle (0.1);
 									\draw[thick, black, fill=Red, visible on=<4>] (1,0) circle (0.1);
 							\end{tikzpicture}}
@@ -224,7 +209,7 @@
 					\end{minipage}
 					\hfill
 					\begin{minipage}[c]{0.6\textwidth}
-						\begin{block}{Standard Linear Solid model}
+						\begin{block}{Standard Linear Solid (SLS) model}
 							\begin{itemize}
 								\item Viscoelastic material modeling 
 								\item Springs
@@ -241,7 +226,7 @@
 				\begin{frame}{FDTD}{Viscoelastic modeling of materials}
 					\begin{minipage}[t]{0.48\textwidth}
 
-						\begin{alertblock}{Q modeling}
+						\begin{alertblock}{Constant Q modeling}
 							\begin{equation}
 								Q^{-1}(\omega) \approx \sum_{l=1}^L \frac{\omega \tau_{\sigma l} \tau}{1 + \omega^2\tau_{\sigma l}^2}
 							\end{equation}
@@ -263,15 +248,11 @@
 					\end{minipage}
 				\end{frame}
 
-			\subsection{Physically constrained acoustic sources model}
-
 		\section{Results}
-			
-			\subsection{Validation}
 
-			\subsection{Pulsing sphere}
+			\subsection{Example}
 
-				\begin{frame}{Results}{Pulsing sphere}
+				\begin{frame}{Results}{Example}
 					\centering
 					\begin{minipage}[c]{0.45\textwidth}
 						\begin{figure}

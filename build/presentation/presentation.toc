@@ -6,8 +6,7 @@
 \beamer@subsectionintoc {2}{2}{Viscoelastic modeling of materials}{10}{2}{2}
 \beamer@subsectionintoc {2}{3}{Physically constrained acoustic sources model}{12}{2}{2}
 \beamer@sectionintoc {3}{Results}{12}{2}{3}
-\beamer@subsectionintoc {3}{1}{Validation}{12}{2}{3}
-\beamer@subsectionintoc {3}{2}{Pulsing sphere}{12}{2}{3}
+\beamer@subsectionintoc {3}{1}{Example}{12}{2}{3}
 \beamer@sectionintoc {4}{Validation}{13}{3}{4}
 \beamer@subsectionintoc {4}{1}{Comparaison avec le modèle PyRAM}{13}{3}{4}
 \beamer@sectionintoc {5}{Localisation Ensembliste}{15}{3}{5}
