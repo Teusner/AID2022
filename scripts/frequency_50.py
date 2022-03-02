@@ -6,9 +6,9 @@ from pyram.PyRAM import PyRAM
 
 import sys
 
-def figure(pyram, reciprocity=1):
+def figure(pyram):
     fig, ax = plt.subplots()
-    im = ax.imshow(pyram.tlg[:, ::reciprocity], cmap="jet_r", aspect="auto")
+    im = ax.imshow(pyram.tlg, cmap="jet_r", aspect="auto")
     ax.set_xlabel(f"Range ($m$)")
     ax.set_ylabel(f"Depth ($m$)")
     ax.ticklabel_format(axis="x", style="sci", scilimits=(3,3))
@@ -67,7 +67,7 @@ if __name__ == "__main__":
     if len(args)>1:
         figname = args[1]
     else :
-        figname = 'build/images/reciprocity_forward.pdf'
+        figname = 'build/images/frequency_50.pdf'
     pyram = model()
     fig, ax = figure(pyram)
     plt.tight_layout()

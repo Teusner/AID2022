@@ -70,4 +70,5 @@ if __name__ == "__main__":
         figname = 'build/images/reciprocity_backward.pdf'
     pyram = model()
     fig, ax = figure(pyram, reciprocity=-1)
+    plt.tight_layout()
     plt.savefig(figname, format="pdf")

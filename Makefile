@@ -19,7 +19,7 @@ TEX_SRCS := $(wildcard */*.sty)
 VIDEOS_MP4 = $(PRESENTATION_BUILD_DIR)/sphere.mp4
 
 # Images PDF
-IMAGES_PDF = $(IMAGES_BUILD_DIR)/reciprocity_forward.pdf $(IMAGES_BUILD_DIR)/reciprocity_backward.pdf
+IMAGES_PDF = $(IMAGES_BUILD_DIR)/reciprocity_forward.pdf $(IMAGES_BUILD_DIR)/reciprocity_backward.pdf $(IMAGES_BUILD_DIR)/frequency_50.pdf $(IMAGES_BUILD_DIR)/frequency_100.pdf
 CONDA_ACTIVATE=source $$(conda info --base)/etc/profile.d/conda.sh ; conda activate ; conda activate
 
 # Directory guard
