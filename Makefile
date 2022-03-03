@@ -16,7 +16,7 @@ IMAGES_BUILD_DIR = $(BUILD_DIR)/$(IMAGES_DIR)
 TEX_SRCS := $(wildcard */*.sty)
 
 # Video
-VIDEOS_MP4 = $(PRESENTATION_BUILD_DIR)/sphere.mp4
+VIDEOS_MP4 = $(PRESENTATION_BUILD_DIR)/sphere.mp4 $(PRESENTATION_BUILD_DIR)/localisation.mp4
 
 # Images PDF
 IMAGES_PDF = $(IMAGES_BUILD_DIR)/reciprocity_forward.pdf $(IMAGES_BUILD_DIR)/reciprocity_backward.pdf $(IMAGES_BUILD_DIR)/frequency_50.pdf $(IMAGES_BUILD_DIR)/frequency_100.pdf $(IMAGES_BUILD_DIR)/depth_20.pdf $(IMAGES_BUILD_DIR)/depth_80.pdf
@@ -38,9 +38,14 @@ $(IMAGES_PDF): $(IMAGES_BUILD_DIR)/%.pdf : $(SCRIPT_DIR)/%.py
 # Video recipe
 videos: $(VIDEOS_MP4)
 
-$(VIDEOS_MP4): $(PRESENTATION_BUILD_DIR)/%.mp4 : $(wildcard $(IMAGES_DIR)/sphere/2dfdtd_*.png)
+$(PRESENTATION_BUILD_DIR)/sphere.mp4: $(wildcard $(IMAGES_DIR)/sphere/2dfdtd_*.png)
 	$(dir_guard)
 	ffmpeg -framerate 30 -pattern_type glob -i 'images/sphere/*.png' -c:v libx264 -pix_fmt yuv420p -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2" $@
+
+$(PRESENTATION_BUILD_DIR)/localisation.mp4 : $(wildcard $(IMAGES_DIR)/localisation/Hydrophone_*.png)
+	$(dir_guard)
+	ffmpeg -framerate 10 -pattern_type glob -i 'images/localisation/Hydrophone_*.png' -c:v libx264 -pix_fmt yuv420p $@
+
 
 # Presentation
 presentation: $(PRESENTATION_BUILD_DIR)/presentation.pdf
