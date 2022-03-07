@@ -40,7 +40,7 @@ videos: $(VIDEOS_MP4)
 
 $(PRESENTATION_BUILD_DIR)/sphere.mp4: $(wildcard $(IMAGES_DIR)/sphere/2dfdtd_*.png)
 	$(dir_guard)
-	ffmpeg -framerate 30 -pattern_type glob -i 'images/sphere/*.png' -c:v libx264 -pix_fmt yuv420p -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2" $@
+	ffmpeg -framerate 30 -pattern_type glob -i 'images/sphere/2dfdtd_*.png' -c:v libx264 -pix_fmt yuv420p -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2" $@
 
 $(PRESENTATION_BUILD_DIR)/localisation.mp4 : $(wildcard $(IMAGES_DIR)/localisation/Hydrophone_*.png)
 	$(dir_guard)
