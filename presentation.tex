@@ -459,94 +459,169 @@
 
 			\subsection{Acoustic contractor}
 
-			\begin{frame}{Acoustic contractor}
-				\centering
-				\begin{minipage}[c]{0.6\textwidth}
-					\begin{block}{Acoustic contractor}
-						\begin{itemize}
-							\item Image contractor on acoustic level map
-							\item Contract interval around pixels
-							\item Pixel values corresponds to acoustic level
-						\end{itemize}
-					\end{block}
-					\begin{exampleblock}{Acoustic source localisation}
-						\begin{itemize}
-							\item Hydrophone at $(2000, 20)\ m$
-							\item Record acoustic level $y$ such that
-						\end{itemize}
-						\begin{equation}
-							y \in [55, 60]\ dB
-						\end{equation}
-					\end{exampleblock}
-				\end{minipage}
-				\hfill
-				\begin{minipage}[c]{0.36\textwidth}
-					\begin{figure}[!htb]
-						\begin{subfigure}[!htb]{\textwidth}
-							\includegraphics[width=\textwidth]{build/images/reciprocity_backward.pdf}
-							\caption{Backward propagation}
-						\end{subfigure}
-						\begin{subfigure}[!htb]{\textwidth}
-							\includegraphics[width=\textwidth]{images/localisation/Hydrophone_20_2000.png}
-							\caption{Set of source position compatible with the recorded signal}
-						\end{subfigure}
-						\caption{Acoustic contractor}
-					\end{figure}
-				\end{minipage}
-			\end{frame}
-			
-			\begin{frame}{Robotics trial facilities}{Seabot~\footfullcite{lemezo}}
-				\centering
-				\begin{minipage}{0.45\textwidth}
-					\begin{figure}
-						\includegraphics[width=\textwidth]{images/mi190322-fig3.eps}
-						\caption{Seabot composition - Thomas Le Mézo}
-					\end{figure}
-				\end{minipage}
-				\hspace{1cm}
-				\begin{minipage}{0.3\textwidth}
-					\begin{figure}
-						\includegraphics[width=\textwidth, trim={5.5cm 0cm 4.8cm 1cm}, clip]{images/mi190322-fig14.eps}
-						\caption{Seabot - Thomas Le Mézo}
-					\end{figure}
-				\end{minipage}
-			\end{frame}
+				\begin{frame}{Acoustic contractor}
+					\centering
+					\begin{minipage}[c]{0.6\textwidth}
+						\begin{block}{Acoustic contractor}
+							\begin{itemize}
+								\item Image contractor on acoustic level map
+								\item Contract intervals around pixels
+								\item Pixel values corresponds to acoustic level
+							\end{itemize}
+						\end{block}
+						\begin{exampleblock}{Acoustic source localisation}
+							\begin{itemize}
+								\item Hydrophone at $(2000, 20)\ m$
+								\item Record acoustic level $y$ such that
+							\end{itemize}
+							\begin{equation}
+								y \in [55, 60]\ dB
+							\end{equation}
+						\end{exampleblock}
+					\end{minipage}
+					\hfill
+					\begin{minipage}[c]{0.36\textwidth}
+						\begin{figure}[!htb]
+							\begin{subfigure}[!htb]{\textwidth}
+								\includegraphics[width=\textwidth]{build/images/reciprocity_backward.pdf}
+								\caption{Backward propagation}
+							\end{subfigure}
+							\begin{subfigure}[!htb]{\textwidth}
+								\includegraphics[width=\textwidth]{images/localisation/Hydrophone_20_2000.png}
+								\caption{Set of source position compatible with the recorded signal}
+							\end{subfigure}
+							\caption{Acoustic contractor}
+						\end{figure}
+					\end{minipage}
+				\end{frame}
+		
+			\subsection{Localisation example}
+		
+				\begin{frame}{Localisation}
+					\centering
+					
+					\begin{minipage}[t][0.1\textheight][t]{\textwidth}
+						\begin{minipage}[t][\textheight][t]{0.325\textwidth}
+							\begin{overprint}
+								\onslide<1>\centering\includegraphics[width=\textwidth]{images/localisation/Hydrophone_20_2000.png}
+								\onslide<2-3>\centering\includegraphics[width=0.8\textwidth]{images/localisation/Hydrophone_20_2000.png}
+							\end{overprint}
+						\end{minipage}
+						\hfill
+						\begin{minipage}[t][\textheight][t]{0.325\textwidth}
+							\begin{overprint}
+								\onslide<1>\centering\includegraphics[width=0.8\textwidth]{images/localisation/Hydrophone_40_2000.png}
+								\onslide<2>\centering\includegraphics[width=\textwidth]{images/localisation/Hydrophone_40_2000.png}
+								\onslide<3>\centering\includegraphics[width=0.8\textwidth]{images/localisation/Hydrophone_40_2000.png}
+							\end{overprint}
+						\end{minipage}
+						\hfill
+						\begin{minipage}[t][\textheight][t]{0.325\textwidth}
+							\begin{overprint}
+								\onslide<1-2>\centering\includegraphics[width=0.8\textwidth]{images/localisation/Hydrophone_60_2000.png}
+								\onslide<3-3>\centering\includegraphics[width=\textwidth]{images/localisation/Hydrophone_60_2000.png}
+							\end{overprint}
+						\end{minipage}
+					\end{minipage}
+					\vspace{0.5cm}
+					\begin{minipage}[t][0.7\textheight][t]{0.48\textwidth}
+						\begin{overprint}
+							\onslide<1>
+								\begin{figure}
+									\centering
+									\includegraphics[width=\textwidth]{images/localisation/Hydrophone_20_2000.png}
+									\caption{Compatible source position for Hydrophone at $(2000, 20)\ m$}
+								\end{figure}
+							\onslide<2>
+								\begin{figure}
+									\centering
+									\includegraphics[width=\textwidth]{images/localisation/Hydrophone_40_2000.png}
+									\caption{Compatible source position for Hydrophone at $(2000, 40)\ m$}
+								\end{figure}
+							\onslide<3>
+								\begin{figure}
+									\centering
+									\includegraphics[width=\textwidth]{images/localisation/Hydrophone_60_2000.png}
+									\caption{Compatible source position for Hydrophone at $(2000, 60)\ m$}
+								\end{figure}
+						\end{overprint}
+					\end{minipage}
+					\hfill
+					\begin{minipage}[t][0.65\textheight][t]{0.46\textwidth}
+						\begin{figure}
+							\centering
+							\includegraphics[width=\textwidth]{images/localisation/Intersection_20_40_60.png}
+							\caption{Intersection of compatible positions}
+						\end{figure}
+					\end{minipage}
+				\end{frame}
 
-			\begin{frame}{Results}{Simulation}
-				\centering
-				\begin{minipage}{0.6\textwidth}
-					\begin{exampleblock}{Simulation}
-						\begin{itemize}
-							\item Real source location $(35, -15)\ m$
-							\item Hydrophone uncertainty $5\ dB$
-						\end{itemize}
-					\end{exampleblock}
-				\end{minipage}
-				\begin{minipage}[c]{0.48\textwidth}
-					\begin{figure}
-						\movie{\includegraphics[width=\textwidth]{images/localisation/Hydrophone_04_2000.png}}{localisation.mp4}
-						\caption{Compatible source position depending on simulated hydrophone measurements in a water column}
-					\end{figure}
-				\end{minipage}
-				\hfill
-				\begin{minipage}[c]{0.48\textwidth}
-					\begin{figure}
-						\includegraphics[width=\textwidth]{images/localisation/Localisation.png}
-						\caption{Acoustic source position compatible with hydrophone measurements}
-					\end{figure}
-				\end{minipage}
-			\end{frame}
+			\subsection{Continuous Localisation}
+			
+				\begin{frame}{Robotics trial facilities}{Seabot~\footfullcite{lemezo}}
+					\centering
+					\begin{minipage}{0.45\textwidth}
+						\begin{figure}
+							\includegraphics[width=\textwidth]{images/mi190322-fig3.eps}
+							\caption{Seabot composition - Thomas Le Mézo}
+						\end{figure}
+					\end{minipage}
+					\hspace{1cm}
+					\begin{minipage}{0.3\textwidth}
+						\begin{figure}
+							\includegraphics[width=\textwidth, trim={5.5cm 0cm 4.8cm 1cm}, clip]{images/mi190322-fig14.eps}
+							\caption{Seabot - Thomas Le Mézo}
+						\end{figure}
+					\end{minipage}
+				\end{frame}
+
+				\begin{frame}{Results}{Simulation}
+					\centering
+					\begin{minipage}{0.6\textwidth}
+						\begin{exampleblock}{Simulation}
+							\begin{itemize}
+								\item Real source location $(35, -15)\ m$
+								\item Hydrophone uncertainty $5\ dB$
+							\end{itemize}
+						\end{exampleblock}
+					\end{minipage}
+					\begin{minipage}[c]{0.48\textwidth}
+						\begin{figure}
+							\movie{\includegraphics[width=\textwidth]{images/localisation/Hydrophone_04_2000.png}}{localisation.mp4}
+							\caption{Compatible source position depending on simulated hydrophone measurements in a water column}
+						\end{figure}
+					\end{minipage}
+					\hfill
+					\begin{minipage}[c]{0.48\textwidth}
+						\begin{figure}
+							\includegraphics[width=\textwidth]{images/localisation/Localisation.png}
+							\caption{Acoustic source position compatible with hydrophone measurements}
+						\end{figure}
+					\end{minipage}
+				\end{frame}
 
 		\section{Conclusion}
 		
 			\begin{frame}{Conclusion}
 				\centering
-				\begin{minipage}{0.55\textwidth}
-					
+				\begin{minipage}{0.46\textwidth}
+					\begin{block}{FDTD for propagation}
+						\begin{itemize}
+							\item Accurate Results
+							\item Return the time response
+							\item Take a lot of computing power
+						\end{itemize}
+					\end{block}
 				\end{minipage}
 				\hfill
-				\begin{minipage}{0.4\textwidth}
-					
+				\begin{minipage}{0.46\textwidth}
+					\begin{block}{Localisation using interval analysis}
+						\begin{itemize}
+							\item Efficient in processing time
+							\item Powerful with intersection
+							\item Resulting set can be large
+						\end{itemize}
+					\end{block}
 				\end{minipage}
 			\end{frame}
 	
