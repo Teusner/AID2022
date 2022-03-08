@@ -50,7 +50,7 @@
 			\begin{minipage}[c]{0.55\textwidth}
 				\begin{block}{Research laboratory}
 					\begin{itemize}
-						\item ENSTA Bretagne
+						\item ENSTA Bretagne, UMR 6285, Lab-STICC
 					\end{itemize}
 				\end{block}
 
@@ -462,7 +462,7 @@
 
 				\begin{frame}{Acoustic contractor}
 					\centering
-					\begin{minipage}[c]{0.6\textwidth}
+					\begin{minipage}[t]{0.6\textwidth}
 						\begin{block}{Acoustic contractor}
 							\begin{itemize}
 								\item Image contractor on acoustic level map
@@ -470,6 +470,7 @@
 								\item Pixel values corresponds to acoustic level
 							\end{itemize}
 						\end{block}
+						\vspace{1cm}
 						\begin{exampleblock}{Acoustic source localisation}
 							\begin{itemize}
 								\item Hydrophone at $(2000, 20)\ m$
@@ -481,7 +482,7 @@
 						\end{exampleblock}
 					\end{minipage}
 					\hfill
-					\begin{minipage}[c]{0.36\textwidth}
+					\begin{minipage}[t]{0.35\textwidth}
 						\begin{figure}[!htb]
 							\begin{subfigure}[!htb]{\textwidth}
 								\includegraphics[width=\textwidth]{build/images/reciprocity_backward.pdf}
@@ -600,9 +601,9 @@
 						\end{figure}
 					\end{minipage}
 				\end{frame}
-
+				
 		\section{Conclusion}
-		
+				
 			\begin{frame}{Conclusion}
 				\centering
 				\begin{minipage}{0.46\textwidth}
@@ -613,6 +614,10 @@
 							\item Take a lot of computing power
 						\end{itemize}
 					\end{block}
+					\begin{figure}
+						\movie{\includegraphics[width=\textwidth]{images/proteus/2dfdtd_01000.png}}{proteus.mp4}
+						\caption{Time response of the pressure field in FDTD simulation}
+					\end{figure}
 				\end{minipage}
 				\hfill
 				\begin{minipage}{0.46\textwidth}
@@ -623,9 +628,13 @@
 							\item Resulting set can be large
 						\end{itemize}
 					\end{block}
+					\begin{figure}
+						\includegraphics[width=\textwidth]{images/localisation/Intersection_20_40_60.png}
+						\caption{Time response of the pressure field in FDTD simulation}
+					\end{figure}
 				\end{minipage}
 			\end{frame}
-	
+
 		\begin{frame}{References}
 			\printbibliography
 		\end{frame}
